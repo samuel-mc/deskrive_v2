@@ -1,6 +1,7 @@
 :root {
     --light_green: #2ECC71;
     --dark_green: #27AE60;
+    --light_grey: #F2F2F2;
     --dark_grey: #2C3E50;
     --yellow: #F1C40F;
     --black: #000000;
@@ -42,6 +43,8 @@ html {
     transition: transform 0.6s ease-in-out;
 }
 
+
+/* Estilos para los botones */
 .btn {
     border-width: 2px;
     border-style: solid;
@@ -77,6 +80,66 @@ html {
     transition: background-color 0.3s ease-in-out;
 }
 
+.btn--white {
+    color: var(--black);
+    background-color: var(--white);
+    border-color: var(--black);
+    transition: background-color 0.6s ease-in-out;
+}
+
+.btn--white:hover {
+    color: var(--white);
+    background-color: var(--black);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn--black {
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+    transition: background-color 0.6s ease-in-out;
+}
+
+.btn--black:hover {
+    opacity: 0.8;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilos para textos */
+.text--h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.text--h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.text--h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.text--p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Estilos para los carruseles */
+#carruselThumbnailInfo .splide__slide.is-visible {
+    border-top: 4px solid var(--light_grey);
+}
+
+#carruselThumbnailInfo .splide__slide.is-visible.is-active {
+    border: none;
+    border-top: 4px solid var(--black);
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
@@ -86,5 +149,16 @@ html {
     100% {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* Equivalente a md de tailwind */
+@media (max-width: 768px) {
+    .text--h2 {
+        font-size: 20px;
+    }
+
+    .text--p {
+        font-size: 12px;
     }
 }

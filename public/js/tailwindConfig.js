@@ -5,6 +5,7 @@ tailwind.config = {
         light_green: '#2ECC71',
         dark_green: '#27AE60',
         dark_grey: '#2C3E50',
+        light_grey: '#F1F2F6',
         yellow: '#F1C40F',
         footer_grey: '#F2F2F2'
       }

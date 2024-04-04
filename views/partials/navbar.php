@@ -23,6 +23,7 @@
         </button>
     </div>
 </header>
+<!-- Menu desplegado al presionar el boton en header mobile -->
 <nav class="h-screen notShowed fixed z-10 top-0 bg-white w-full" id="mobileMenu">
     <div class="flex flex-col justify-between px-4 py-8">
         <div class="text-right p-4">
