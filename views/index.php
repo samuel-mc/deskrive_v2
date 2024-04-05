@@ -600,7 +600,7 @@
 
     <!-- Seccion lo que nuestros clientes opinan -->
     <section class="max-w-7xl mx-auto py-12 px-4">
-        <h2 class="text--h2 mb-6">Lo que nuestros clientes opinan de nuestro trabajo</h2>
+        <h2 class="text--h2 mb-6 max-w-2xl">Lo que nuestros clientes opinan de nuestro trabajo</h2>
         <div id="carouselOpinionesClientes" class="splide">
             <div class="splide__track">
                 <ul class="splide__list">
@@ -659,6 +659,62 @@
                     <i class="fas fa-arrow-right"></i>
                 </button>
             </div>
+        </div>
+    </section>
+
+    <section class="bg-black py-10 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text--h2 text-white text-center mb-10">Proceso de trabajo</h2>
+            <div class="max-w-4xl mx-auto mb-10">
+                <h3 class="text--h3 text-white text-center mb-5 animated fadeIn" id="titleProceso">Kick-Off</h3>
+                <p class="text--p text-white animated fadeIn" id="descriptionProceso">El equipo asignado por Deskrive para el desarrollo de la aplicación web, se encarga de la planificación de todo el proyecto, se monta el proyecto en el Deskrive Framework para planificar todos los módulos que requerirá la aplicación web y la arquitectura de la misma.</p>
+            </div>
+            <div class="relative">
+                <div class="contenedor-linea"></div>
+                <div class="flex justify-between relative">
+                    <div class="proceso__item proceso--active proceso__item--first" id="kickOff">
+                        <p class="text-base">Kick-Off</p>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('kickOff')"></button>
+                        <span></span>
+                    </div>
+                    <div class="proceso__item" id="planeacion">
+                        <span></span>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('planeacion')"></button>
+                        <p class="text-base">Planeación</p>
+                    </div>
+                    <div class="proceso__item" id="wireframe">
+                        <p class="text-base">Wireframe</p>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('wireframe')"></button>
+                        <span></span>
+                    </div>
+                    <div class="proceso__item" id="diseno">
+                        <span></span>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('diseno')"></button>
+                        <p class="text-base">Diseño</p>
+                    </div>
+                    <div class="proceso__item" id="desarrollo">
+                        <p class="text-base">Desarrollo</p>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('desarrollo')"></button>
+                        <span></span>
+                    </div>
+                    <div class="proceso__item" id="qa">
+                        <span></span>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('qa')"></button>
+                        <p class="text-base">QA’s y pruebas.</p>
+                    </div>
+                    <div class="proceso__item" id="lanzamiento">
+                        <p class="text-base">Lanzamiento</p>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('lanzamiento')"></button>
+                        <span></span>
+                    </div>
+                    <div class="proceso__item proceso__item--last" id="mantenimiento">
+                        <span></span>
+                        <button class="btn--proceso" onclick="setProcesoDeTrabajo('mantenimiento')"></button>
+                        <p class="text-base">Mantenimiento y soporte</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 

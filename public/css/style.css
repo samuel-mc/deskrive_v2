@@ -13,11 +13,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Animaciones */
-* {
-    animation: appear 0.3s ease-in-out;
-}
-
 #mobileMenu,
 #mobileMenu * {
     animation: none;
@@ -163,7 +158,6 @@ textarea.input--grey {
     transition: box-shadow 0.3s ease-in-out !important;
 }
 
-
 textarea.input--grey {
     resize: none;
 }
@@ -235,6 +229,81 @@ textarea.input--grey {
     opacity: 1;
 }
 
+/* Estilos para la seccion de procesos de trabajo en el index */
+.btn--proceso {
+    background-color: var(--white);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: transparent;
+
+}
+
+.proceso__item--first .btn--proceso::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0px; /* Espacio entre el botón y el rectángulo */
+    width: 30px; /* Ancho del rectángulo */
+    height: 4px; /* Alto del rectángulo */
+    background-color: var(--black);
+    z-index: -1;
+}
+
+.proceso__item--last .btn--proceso::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -2px; /* Espacio entre el botón y el rectángulo */
+    width: 88px; /* Ancho del rectángulo */
+    height: 4px; /* Alto del rectángulo */
+    background-color: var(--black);
+    z-index: -1;
+}
+
+.contenedor-linea {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    /* Grosor de la línea */
+    background-color: var(--white);
+    /* Color de la línea */
+    position: absolute;
+    top: 50%;
+}
+
+.contenedor-linea::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    z-index: 1;
+}
+
+.proceso__item {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    z-index: 100;
+    color: var(--white);
+}
+
+.proceso__item.proceso--active {
+    color: var(--light_green);
+}
+
+.proceso__item.proceso--active .btn--proceso {
+    background-color: var(--light_green);
+    animation: btnKF 3s ease-in-out infinite;
+    border: 1px solid var(--light_green);
+}
+
+
 @keyframes appear {
     0% {
         opacity: 0;
@@ -247,13 +316,82 @@ textarea.input--grey {
     }
 }
 
+@keyframes btnKF {
+    0% {
+        background-color: var(--light_green);
+    }
+
+    50% {
+        background-color: var(--dark_grey);
+    }
+
+    100% {
+        background-color: var(--dark_green);
+    }
+
+}
+
 /* Equivalente a md de tailwind */
 @media (max-width: 768px) {
     .text--h2 {
         font-size: 20px;
     }
 
+    .text--h3 {
+        font-size: 20px;
+    }
+
     .text--p {
         font-size: 12px;
     }
+
+    .proceso__item > p {
+        color: transparent;
+        font-size: 1px;
+    }
+
+    .proceso__item--first .btn--proceso::after {
+        width: 20px; /* Ancho del rectángulo */
+    }
+    
+    .proceso__item--last .btn--proceso::before {
+        width: 20px; /* Ancho del rectángulo */
+    }
+}
+
+/* Agrega animación a los elementos con la clase .animated */
+.animated {
+    animation-duration: 0.5s; /* Duración de la animación */
+    animation-fill-mode: both;
+    opacity: 0; /* Comienza con opacidad cero */
+}
+
+/* Define la animación para la entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Aplica la animación de entrada */
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+/* Agrega animación de salida */
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Aplica la animación de salida */
+.fadeOut {
+    animation-name: fadeOut;
 }
