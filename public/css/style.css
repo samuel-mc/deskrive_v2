@@ -125,6 +125,12 @@ html {
     font-size: 24px;
 }
 
+.text--h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .text--p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -155,7 +161,6 @@ textarea.input--grey {
     outline-offset: none !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
     transition: box-shadow 0.3s ease-in-out !important;
-    
 }
 
 
@@ -172,6 +177,62 @@ textarea.input--grey {
 #carruselThumbnailInfo .splide__slide.is-visible.is-active {
     border: none;
     border-top: 4px solid var(--black);
+}
+
+#carouselOpinionesClientes .splide__arrows {
+    all: initial;
+    position: static !important;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px 0 !important;
+}
+
+#carouselOpinionesClientes .splide__arrows .splide__arrow {
+    all: initial;
+    background-color: var(--white) !important;
+    border-radius: 50%;
+    border: 2px solid var(--black) !important;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin: 0 8px;
+    opacity: 1;
+    position: static !important;
+    transition: background-color 0.6s ease-in-out;
+    width: 60px;
+}
+
+#carouselOpinionesClientes .splide__arrow:hover {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#carouselOpinionesClientes .splide__pagination,
+#carruselCasos .splide__pagination {
+    position: static !important;
+    padding: 12px 0 !important;
+}
+
+#carouselOpinionesClientes .splide__pagination__page.is-active,
+#carruselCasos .splide__pagination__page.is-active {
+    background: var(--light_green);
+    border: 2px solid var(--dark_green);
+    height: 24px;
+    width: 24px;
+    opacity: 1;
+    transform: none;
+}
+
+#carouselOpinionesClientes .splide__pagination__page,
+#carruselCasos .splide__pagination__page {
+    background: var(--white);
+    border: 2px solid var(--dark_grey);
+    height: 24px;
+    width: 24px;
+    opacity: 1;
 }
 
 @keyframes appear {

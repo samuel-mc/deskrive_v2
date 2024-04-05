@@ -585,7 +585,7 @@
                         <input type="tel" class="input--grey my-2 w-full" placeholder="Teléfono">
                         <textarea name="" id="" cols="30" rows="10" class="input--grey my-2 w-full" placeholder="Cuéntanos sobre tu proyecto"></textarea>
                         <span class="text-xs poppins-regular">
-                        A nosotros tampoco nos gusta el SPAM, en caso de no tener respuesta únicamente recibirás un máximo de 3 correos y 2 mensajes de WhatsApp. Consulta tu bandeja de SPAM en caso de no recibir un correo de contacto.
+                            A nosotros tampoco nos gusta el SPAM, en caso de no tener respuesta únicamente recibirás un máximo de 3 correos y 2 mensajes de WhatsApp. Consulta tu bandeja de SPAM en caso de no recibir un correo de contacto.
                         </span>
                         <div class="my-4 text-center md:text-end">
                             <button type="button" class="btn btn--yellow">
@@ -595,6 +595,70 @@
                     </form>
                 </div>
             </main>
+        </div>
+    </section>
+
+    <!-- Seccion lo que nuestros clientes opinan -->
+    <section class="max-w-7xl mx-auto py-12 px-4">
+        <h2 class="text--h2 mb-6">Lo que nuestros clientes opinan de nuestro trabajo</h2>
+        <div id="carouselOpinionesClientes" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide p-9 text-white rounded-xl bg-black">
+                        <p class="text--p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lectus at tempor posuere. Proin quis tincidunt nibh. Ut suscipit risus sem, non aliquam augue lobortis vitae. Nullam quam turpis, dignissim eu elementum sed, pretium at augue. Aliquam porta id magna eu ullamcorper.
+                        </p>
+                        <div class="mt-10">
+                            <h5 class="text--h5">Nombre del testimonio </h5>
+                            <h5 class="text--h5">Empresa</h5>
+                        </div>
+                    </li>
+                    <li class="splide__slide p-9 text-white rounded-xl bg-black">
+                        <p class="text--p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lectus at tempor posuere. Proin quis tincidunt nibh. Ut suscipit risus sem, non aliquam augue lobortis vitae. Nullam quam turpis, dignissim eu elementum sed, pretium at augue. Aliquam porta id magna eu ullamcorper.
+                        </p>
+                        <div class="mt-10">
+                            <h5 class="text--h5">Nombre del testimonio </h5>
+                            <h5 class="text--h5">Empresa</h5>
+                        </div>
+                    </li>
+                    <li class="splide__slide p-9 text-white rounded-xl bg-black">
+                        <p class="text--p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lectus at tempor posuere. Proin quis tincidunt nibh. Ut suscipit risus sem, non aliquam augue lobortis vitae. Nullam quam turpis, dignissim eu elementum sed, pretium at augue. Aliquam porta id magna eu ullamcorper.
+                        </p>
+                        <div class="mt-10">
+                            <h5 class="text--h5">Nombre del testimonio </h5>
+                            <h5 class="text--h5">Empresa</h5>
+                        </div>
+                    </li>
+                    <li class="splide__slide p-9 text-white rounded-xl bg-black">
+                        <p class="text--p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lectus at tempor posuere. Proin quis tincidunt nibh. Ut suscipit risus sem, non aliquam augue lobortis vitae. Nullam quam turpis, dignissim eu elementum sed, pretium at augue. Aliquam porta id magna eu ullamcorper.
+                        </p>
+                        <div class="mt-10">
+                            <h5 class="text--h5">Nombre del testimonio </h5>
+                            <h5 class="text--h5">Empresa</h5>
+                        </div>
+                    </li>
+                    <li class="splide__slide p-9 text-white rounded-xl bg-black">
+                        <p class="text--p">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur lectus at tempor posuere. Proin quis tincidunt nibh. Ut suscipit risus sem, non aliquam augue lobortis vitae. Nullam quam turpis, dignissim eu elementum sed, pretium at augue. Aliquam porta id magna eu ullamcorper.
+                        </p>
+                        <div class="mt-10">
+                            <h5 class="text--h5">Nombre del testimonio </h5>
+                            <h5 class="text--h5">Empresa</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="splide__arrows splide__arrows--ltr">
+                <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Previous slide" aria-controls="splide01-track">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide01-track">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
     </section>
 
@@ -648,19 +712,10 @@
         pagination: false,
         type: 'loop',
         gap: '1.6rem',
-        perPage: 3,
+        perPage: 4,
+        focus: 'center',
         perMove: 1,
         isNavigation: false,
-        // breakpoints: {
-        //     1024: {
-        //         perPage: 1,
-        //         gap: '1rem',
-        //     },
-        //     480: {
-        //         perPage: 1,
-        //         gap: '1rem',
-        //     },
-        // },
         autoScroll: {
             speed: 1,
         },
@@ -731,20 +786,44 @@
         },
         breakpoints: {
             1024: {
-                perPage: 5,
+                perPage: 6,
                 perMove: 1,
-                arrows: true,
                 type: 'loop',
+                focus: 'center',
             },
             768: {
-                perPage: 3,
+                perPage: 4,
                 perMove: 1,
-                arrows: true,
                 type: 'loop',
+                focus: 'center',
             },
         },
     });
     carouselTecnologias.mount();
+
+    var carouselOpinionesClientes = new Splide('#carouselOpinionesClientes', {
+        // arrows: false,
+        pagination: false,
+        type: 'loop',
+        gap: '1.6rem',
+        perPage: 3,
+        perMove: 1,
+        isNavigation: false,
+        autoScroll: {
+            speed: 1,
+        },
+        breakpoints: {
+            1024: {
+                perPage: 2,
+            },
+            768: {
+                perPage: 1,
+                arrows: false,
+                pagination: true,
+            },
+        }
+    });
+    carouselOpinionesClientes.mount();
 </script>
 
 <?php include 'partials/footer.php'; ?>
