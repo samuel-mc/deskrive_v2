@@ -1,6 +1,6 @@
 <footer class="bg-footer_grey px-10 md:p-4 md:py-8">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-12">
-        <div class="col-span-12 md:col-span-3 mb-3 md:mb-0">
+        <div class="col-span-12 lg:col-span-3 mb-3 md:mb-0">
             <div class="mb-3 md:mb-0">
                 <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa" class="w-52 mx-auto md:mx-0">
             </div>
@@ -9,7 +9,7 @@
             </p>
             <p class="text-xs text-stone-400 mt-4">Copyright Deskrive Innovations 2023.</p>
         </div>
-        <div class="col-span-12 md:col-span-3">
+        <div class="col-span-12 md:col-span-4 lg:col-span-3">
             <h2 class="text-xl poppins-bold mb-4">Enlaces</h2>
             <ul class="text-base poppins-semibold list-inside list-disc">
                 <li class="mb-3">
@@ -32,7 +32,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-span-12 md:col-span-3">
+        <div class="col-span-12 md:col-span-4 lg:col-span-3">
             <h2 class="text-xl poppins-bold mb-4">Soluciones web</h2>
             <ul class="text-base poppins-semibold list-inside list-disc">
                 <li class="mb-3">
@@ -49,7 +49,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-span-12 md:col-span-3">
+        <div class="col-span-12 md:col-span-4 lg:col-span-3">
             <h2 class="text-xl poppins-bold mb-4">Contacto</h2>
             <ul class="text-base poppins-semibold list-inside list-disc">
                 <li class="mb-3">

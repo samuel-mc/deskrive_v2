@@ -3,6 +3,7 @@
     --dark_green: #27AE60;
     --light_grey: #F2F2F2;
     --dark_grey: #2C3E50;
+    --input_grey: #D9D9D9;
     --yellow: #F1C40F;
     --black: #000000;
     --white: #FFFFFF;
@@ -129,6 +130,39 @@ html {
     font-weight: 400;
     font-size: 14px;
 }
+
+/* Estilos para los inputs */
+input.input--grey,
+textarea.input--grey {
+    border: none;
+    background-color: var(--input_grey) !important;
+    border-radius: 12px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--black);
+    padding: 16px 24px !important;
+    transition: box-shadow 0.6s ease-in-out;
+}
+
+.input--grey::placeholder {
+    color: var(--black);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.input--grey:focus {
+    outline: none !important;
+    outline-offset: none !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    transition: box-shadow 0.3s ease-in-out !important;
+    
+}
+
+
+textarea.input--grey {
+    resize: none;
+}
+
 
 /* Estilos para los carruseles */
 #carruselThumbnailInfo .splide__slide.is-visible {
