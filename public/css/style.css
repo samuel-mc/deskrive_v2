@@ -101,7 +101,13 @@ html {
     transition: background-color 0.3s ease-in-out;
 }
 
+
 /* Estilos para textos */
+.text--h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
 .text--h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -130,6 +136,12 @@ html {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
+}
+
+.text--supertitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* Estilos para los inputs */
@@ -333,6 +345,10 @@ textarea.input--grey {
 
 /* Equivalente a md de tailwind */
 @media (max-width: 768px) {
+    .text--h1 {
+        font-size: 20px;
+    }
+
     .text--h2 {
         font-size: 20px;
     }

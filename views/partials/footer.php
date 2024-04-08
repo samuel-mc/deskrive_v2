@@ -1,3 +1,12 @@
+<!-- Principio del widget de globo de Calendly -->
+
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/deskrive/meetnew?primary_color=2ecc71', text: 'Agendar videollamada', color: '#f1c40f', textColor: '#1a1a1a', branding: undefined }); }</script>
+
+<!-- Final del widget de globo de Calendly -->
 <footer class="bg-footer_grey px-10 md:p-4 md:py-8">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-12">
         <div class="col-span-12 lg:col-span-3 mb-3 md:mb-0">

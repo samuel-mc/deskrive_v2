@@ -2,7 +2,20 @@
 <?php include 'partials/navbar.php'; ?>
 <main>
     <!-- Seccion hero -->
-    <section class="max-w-7xl mx-auto grid grid-cols-12 py-10 px-3">
+    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-10">
+        <div>
+            <h1 class="text--h1 mb-3">Innovación <span class="text-dark_green">Web a tu Alcance</span></h1>
+            <p class="text--p mb-4">
+                En Deskrive, nos especializamos en dar vida a tus visiones en línea. Ofrecemos desarrollo web personalizado y soluciones a medida que se adaptan a tus necesidades específicas. Nuestra misión es impulsar tu éxito digital. Únete a nosotros y experimenta la excelencia en diseño, innovación y desarrollo web
+            </p>
+            <div class="mb-9 flex flex-col lg:flex-row justify-center">
+                <a href="#" class="btn btn--yellow m-1">Agendar una reunión</a>
+                <a href="#" class="btn btn--light-green m-1">Enviar WhatsApp</a>
+            </div>
+        </div>
+        <div></div>
+    </section>
+    <!-- <section class="max-w-7xl mx-auto grid grid-cols-12 py-10 px-3">
         <div class="flex justify-center items-center col-span-3 p-4">
             <img src="<?php echo __ROOT__; ?>/public/img/home/hero1.png" alt="logo de la empresa" class="w-full max-w-64 hidden md:block">
         </div>
@@ -20,7 +33,7 @@
         <div class="flex justify-center items-center col-span-3 p-4">
             <img src="<?php echo __ROOT__; ?>/public/img/home/hero2.png" alt="logo de la empresa" class="w-full max-w-64 hidden md:block">
         </div>
-    </section>
+    </section> -->
 
     <!-- Seccion de quienes somos -->
     <section class="max-w-7xl mx-6 xl:mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 bg-light_green rounded-lg py-7 px-4 border-4 border-dark_green">
@@ -153,13 +166,13 @@
     <!-- Seccion de soluciones web -->
     <section class="bg-light_grey">
         <div class="max-w-7xl mx-auto py-8">
-            <h2 class="text--h2 text-center mb-8">Nuestras soluciones web</h2>
+            <h2 class="text--h2 text-center mb-8">Nuestras <span class="text-dark_green">soluciones web</span></h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 md:mb-24">
                 <div class="bg-white rounded flex flex-col justify-between">
                     <img src="<?php echo __ROOT__; ?>/public/img/home/soluciones1.png" alt="logo de la empresa" class="w-full max-w-56 my-14 mx-auto">
                     <main class="">
                         <div class="text-center my-6">
-                            <h3 class="text--h3">Deskrive Web Design</h3>
+                            <h3 class="text--h3">Deskrive <span class="text-dark_green">Web Design</span></h3>
                             <h4 class="text--h4">Desarrollo de página web</h4>
                         </div>
                         <a href="" class="btn btn--black poppins-semibold text-base py-4 px-16 rounded flex justify-between items-center w-full">
@@ -172,7 +185,7 @@
                     <img src="<?php echo __ROOT__; ?>/public/img/home/soluciones2.png" alt="logo de la empresa" class="w-full max-w-56 my-14 mx-auto">
                     <main class="">
                         <div class="text-center my-6">
-                            <h3 class="text--h3">Deskrive eCommerce</h3>
+                            <h3 class="text--h3">Deskrive <span class="text-dark_green">eCommerce</span></h3>
                             <h4 class="text--h4">Desarrollo de tienda en línea</h4>
                         </div>
                         <a href="" class="btn btn--black poppins-semibold text-base py-4 px-16 rounded flex justify-between items-center w-full">
@@ -187,7 +200,7 @@
                     <img src="<?php echo __ROOT__; ?>/public/img/home/soluciones3.png" alt="logo de la empresa" class="w-full max-w-56 my-14 mx-auto">
                     <main class="">
                         <div class="text-center my-6">
-                            <h3 class="text--h3">Deskrive Web Development</h3>
+                            <h3 class="text--h3">Deskrive <span class="text-dark_green">Web Development</span></h3>
                             <h4 class="text--h4">Desarrollo de aplicaciones web</h4>
                         </div>
                         <a href="" class="btn btn--black poppins-semibold text-base py-4 px-16 rounded flex justify-between items-center w-full">
@@ -200,7 +213,7 @@
                     <img src="<?php echo __ROOT__; ?>/public/img/home/soluciones4.png" alt="logo de la empresa" class="w-full max-w-56 my-14 mx-auto">
                     <main class="">
                         <div class="text-center my-6">
-                            <h3 class="text--h3">Deskrive Labs</h3>
+                            <h3 class="text--h3">Deskrive <span class="text-dark_green">Labs</span></h3>
                             <h4 class="text--h4">Desarrollo de productos tecnológicos</h4>
                         </div>
                         <a href="" class="btn btn--black poppins-semibold text-base py-4 px-16 rounded flex justify-between items-center w-full">
@@ -305,56 +318,11 @@
         </div>
     </section>
 
-    <!-- Seccion obtiene una consulta gratis -->
-    <section class="max-w-7xl mx-auto relative p-4">
-        <div class="md:bg-light_grey rounded-xl py-8 px-10 md:px-2 text-justify md:text-center">
-            <h2 class="text--h2 mb-2">Obtén una consulta gratis</h2>
-            <p class="text--p max-w-3xl mx-auto md:mb-20">
-                Nuestro equipo está listo para escuchar las necesidades y objetivos de tu proyecto. Entendemos que cada idea es única y merece una atención personalizada. Por eso, te invitamos a agendar una videollamada con uno de nuestros especialistas o enviar una solicitud por medio de un formulario.
-            </p>
-        </div>
-        <div class="grid md:grid-cols-2 gap-5 px-10 relative md:-top-20">
-            <div class="bg-yellow rounded-xl border-4 border-black px-8 py-9 flex flex-col justify-between">
-                <main>
-                    <h3 class="text--h3 mb-3">Agendar una reunión</h3>
-                    <p class="text--p">
-                        Agenda una reunión virtual (videollamada) donde podrás compartir tus ideas, preguntas y desafíos con un experto de nuestro equipo que tiene la experiencia y las herramientas para guiar tus visiones hacia la realidad digital.
-                    </p>
-                </main>
-                <footer>
-                    <div class="mt-10 mb-6">
-                        <a href="" class="btn btn--black">
-                            <span class="mr-3">Agendar una reunión</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                    <p class="poppins-regular text-xs">Podrás agendar una videollamada por Zoom o Teams seleccionando un horario disponible.</p>
-                </footer>
-            </div>
-            <div class="bg-light_green rounded-xl border-4 border-dark_green px-8 py-9 flex flex-col justify-between">
-                <main>
-                    <h3 class="text--h3 mb-3">Solicitar una cotización</h3>
-                    <p class="text--p">
-                        Te invitamos a solicitar una cotización personalizada para tu proyecto por medio de nuestro formulario. Uno de nuestros expertos revisará tus especificaciones y se pondrá en contacto contigo para discutir los detalles y proporcionarte una cotización ajustada a tus necesidades.
-                    </p>
-                </main>
-                <footer>
-                    <div class="mt-10 mb-6">
-                        <a href="" class="btn btn--black">
-                            <span class="mr-3">Solicitar cotización</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                    <p class="poppins-regular text-xs">Podrás enviar la solicitud por medio de un formulario.</p>
-                </footer>
-            </div>
-        </div>
-    </section>
-
     <!-- Casos de exito -->
-    <section class="max-w-7xl mx-auto border-t-4 border-black py-6 px-2">
+    <section class="max-w-7xl mx-auto py-6 px-2">
         <header class="max-w-3xl text-center mx-auto mb-9">
-            <h2 class="text--h2 mb-3">Casos de éxito</h2>
+            <supertitle class="text--supertitle">Casos de éxito</supertitle>
+            <h2 class="text--h2 mb-3">Deskrive en acción</h2>
             <p class="text--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
         </header>
         <!-- Cartas que se muestra en la version desktop -->
@@ -486,6 +454,53 @@
                         </div>
                     </li>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seccion obtiene una asesoría gratis -->
+    <section class="max-w-7xl mx-auto relative p-4">
+        <div class="md:bg-light_grey rounded-xl py-8 px-10 md:px-2 text-justify md:text-center">
+            <h2 class="text--h2 mb-2">Obtén una <span class="text-dark_green">asesoría gratis</span></h2>
+            <p class="text--p max-w-3xl mx-auto md:mb-20">
+                Nuestro equipo está listo para escuchar las necesidades y objetivos de tu proyecto. Entendemos que cada idea es única y merece una atención personalizada. Por eso, te invitamos a agendar una videollamada con uno de nuestros especialistas o enviar una solicitud por medio de un formulario.
+            </p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-5 px-10 relative md:-top-20">
+            <div class="bg-yellow rounded-xl border-4 border-black px-8 py-9 flex flex-col justify-between">
+                <main>
+                    <h3 class="text--h3 mb-3">Agendar una reunión</h3>
+                    <p class="text--p">
+                        Agenda una reunión virtual (videollamada) donde podrás compartir tus ideas, preguntas y desafíos con un experto de nuestro equipo que tiene la experiencia y las herramientas para guiar tus visiones hacia la realidad digital.
+                    </p>
+                </main>
+                <footer>
+                    <div class="mt-10 mb-6">
+                        <a href="" class="btn btn--black">
+                            <span class="mr-3">Agendar una reunión</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <p class="poppins-regular text-xs">Podrás agendar una videollamada por Zoom o Teams seleccionando un horario disponible.</p>
+                </footer>
+            </div>
+            <div class="bg-light_green rounded-xl border-4 border-dark_green px-8 py-9 flex flex-col justify-between">
+                <main>
+                    <h3 class="text--h3 mb-3">Solicitar una cotización</h3>
+                    <p class="text--p">
+                        Te invitamos a solicitar una cotización personalizada para tu proyecto por medio de nuestro formulario. Uno de nuestros expertos revisará tus especificaciones y se pondrá en contacto contigo para discutir los detalles y proporcionarte una cotización ajustada a tus necesidades.
+                    </p>
+                </main>
+                <footer>
+                    <div class="mt-10 mb-6">
+                        <a href="" class="btn btn--black">
+                            <span class="mr-3">Solicitar cotización</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <p class="poppins-regular text-xs">Podrás enviar la solicitud por medio de un formulario.</p>
+                </footer>
             </div>
         </div>
     </section>
