@@ -2,38 +2,22 @@
 <?php include 'partials/navbar.php'; ?>
 <main>
     <!-- Seccion hero -->
-    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-10">
+    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-4 md:p-10">
         <div>
-            <h1 class="text--h1 mb-3">Innovación <span class="text-dark_green">Web a tu Alcance</span></h1>
+            <h1 class="text--h1 text-3xl md:text-4xl mb-3">Innovación <span class="text-dark_green">Web a tu Alcance</span></h1>
             <p class="text--p mb-4">
                 En Deskrive, nos especializamos en dar vida a tus visiones en línea. Ofrecemos desarrollo web personalizado y soluciones a medida que se adaptan a tus necesidades específicas. Nuestra misión es impulsar tu éxito digital. Únete a nosotros y experimenta la excelencia en diseño, innovación y desarrollo web
             </p>
+            <img src="<?php echo __ROOT__; ?>/public/img/home/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto md:hidden">
             <div class="mb-9 flex flex-col lg:flex-row justify-center">
-                <a href="#" class="btn btn--yellow m-1">Agendar una reunión</a>
-                <a href="#" class="btn btn--light-green m-1">Enviar WhatsApp</a>
+                <a href="#" class="btn btn--yellow text-center mx-16 my-1 md:mx-1">Agendar una reunión</a>
+                <a href="#" class="btn btn--light-green text-center mx-16 my-1 md:mx-1">Enviar WhatsApp</a>
             </div>
         </div>
-        <div></div>
+        <div>
+            <img src="<?php echo __ROOT__; ?>/public/img/home/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto hidden md:block">
+        </div>
     </section>
-    <!-- <section class="max-w-7xl mx-auto grid grid-cols-12 py-10 px-3">
-        <div class="flex justify-center items-center col-span-3 p-4">
-            <img src="<?php echo __ROOT__; ?>/public/img/home/hero1.png" alt="logo de la empresa" class="w-full max-w-64 hidden md:block">
-        </div>
-        <div class="text-center col-span-12 md:col-span-6">
-            <h1 class="text-xl md:text-4xl poppins-semibold mb-4">Innovación Web a tu Alcance</h1>
-            <p class="poppins-regular text-xs md:text-sm mb-4">
-                En Deskrive, nos especializamos en dar vida a tus visiones en línea. Ofrecemos desarrollo web personalizado y soluciones a medida que se adaptan a tus necesidades específicas. Nuestra misión es impulsar tu éxito digital. Únete a nosotros y experimenta la excelencia en diseño, innovación y desarrollo web
-            </p>
-            <div class="mb-9 flex flex-col lg:flex-row justify-center">
-                <a href="#" class="btn btn--yellow m-1">Agendar una reunión</a>
-                <a href="#" class="btn btn--light-green m-1">Enviar WhatsApp</a>
-            </div>
-            <img src="<?php echo __ROOT__; ?>/public/img/home/hero3.png" alt="logo de la empresa" class="w-full max-w-64 mx-auto hidden md:block">
-        </div>
-        <div class="flex justify-center items-center col-span-3 p-4">
-            <img src="<?php echo __ROOT__; ?>/public/img/home/hero2.png" alt="logo de la empresa" class="w-full max-w-64 hidden md:block">
-        </div>
-    </section> -->
 
     <!-- Seccion de quienes somos -->
     <section class="max-w-7xl mx-6 xl:mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 bg-light_green rounded-lg py-7 px-4 border-4 border-dark_green">

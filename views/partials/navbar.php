@@ -6,7 +6,7 @@
             <ul class="flex text-xl items-center h-full roboto-regular text-xl">
                 <li class="mr-4"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>">Inicio</a></li>
                 <li class="mr-4"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>nosotros">Soluciones web</a></li>
-                <li class="mr-4"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>servicios">Nosotros</a></li>
+                <li class="mr-4"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>about">Nosotros</a></li>
                 <li class="mr-4"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>multimedia">Contacto</a></li>
                 <li><a href="<?php echo __ROOT__; ?>#contacto" class="btn btn--yellow poppins-semibold">Agendar una reunión</a></li>
             </ul>
@@ -35,7 +35,7 @@
             <ul class="flex flex-col text-xl items-center h-full roboto-regular text-xl">
                 <li class="my-2"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>">Inicio</a></li>
                 <li class="my-2"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>nosotros">Soluciones web</a></li>
-                <li class="my-2"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>servicios">Nosotros</a></li>
+                <li class="my-2"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>about">Nosotros</a></li>
                 <li class="my-2"><a class="border-b-2 border-transparent hover:border-yellow transition-all" href="<?php echo __ROOT__; ?>multimedia">Contacto</a></li>
                 <li class="mt-10"><a href="<?php echo __ROOT__; ?>#contacto" class="btn btn--yellow poppins-semibold">Agendar una reunión</a></li>
             </ul>

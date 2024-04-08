@@ -25,7 +25,7 @@
                     <a href="">Inicio</a>
                 </li>
                 <li class="mb-3">
-                    <a href="">Acerca de nosotros</a>
+                    <a href="<?php echo __ROOT__; ?>about">Acerca de nosotros</a>
                 </li>
                 <li class="mb-3">
                     <a href="">Nuestros servicios</a>

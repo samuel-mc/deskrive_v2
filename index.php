@@ -12,6 +12,10 @@ Flight::route('/', function () {
     Flight::render('index.php', array('title' => 'Inicio'));
 });
 
+Flight::route('/about', function () {
+    Flight::render('about.php', array('title' => 'Acera de nosotros'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
