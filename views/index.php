@@ -444,50 +444,7 @@
 
 
     <!-- Seccion obtiene una asesoría gratis -->
-    <section class="max-w-7xl mx-auto relative p-4">
-        <div class="md:bg-light_grey rounded-xl py-8 px-10 md:px-2 text-justify md:text-center">
-            <h2 class="text--h2 mb-2">Obtén una <span class="text-dark_green">asesoría gratis</span></h2>
-            <p class="text--p max-w-3xl mx-auto md:mb-20">
-                Nuestro equipo está listo para escuchar las necesidades y objetivos de tu proyecto. Entendemos que cada idea es única y merece una atención personalizada. Por eso, te invitamos a agendar una videollamada con uno de nuestros especialistas o enviar una solicitud por medio de un formulario.
-            </p>
-        </div>
-        <div class="grid md:grid-cols-2 gap-5 px-10 relative md:-top-20">
-            <div class="bg-yellow rounded-xl border-4 border-black px-8 py-9 flex flex-col justify-between">
-                <main>
-                    <h3 class="text--h3 mb-3">Agendar una reunión</h3>
-                    <p class="text--p">
-                        Agenda una reunión virtual (videollamada) donde podrás compartir tus ideas, preguntas y desafíos con un experto de nuestro equipo que tiene la experiencia y las herramientas para guiar tus visiones hacia la realidad digital.
-                    </p>
-                </main>
-                <footer>
-                    <div class="mt-10 mb-6">
-                        <a href="" class="btn btn--black">
-                            <span class="mr-3">Agendar una reunión</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                    <p class="poppins-regular text-xs">Podrás agendar una videollamada por Zoom o Teams seleccionando un horario disponible.</p>
-                </footer>
-            </div>
-            <div class="bg-light_green rounded-xl border-4 border-dark_green px-8 py-9 flex flex-col justify-between">
-                <main>
-                    <h3 class="text--h3 mb-3">Solicitar una cotización</h3>
-                    <p class="text--p">
-                        Te invitamos a solicitar una cotización personalizada para tu proyecto por medio de nuestro formulario. Uno de nuestros expertos revisará tus especificaciones y se pondrá en contacto contigo para discutir los detalles y proporcionarte una cotización ajustada a tus necesidades.
-                    </p>
-                </main>
-                <footer>
-                    <div class="mt-10 mb-6">
-                        <a href="" class="btn btn--black">
-                            <span class="mr-3">Solicitar cotización</span>
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                    <p class="poppins-regular text-xs">Podrás enviar la solicitud por medio de un formulario.</p>
-                </footer>
-            </div>
-        </div>
-    </section>
+    <?php include 'components/obtenUnaAsesoria.php'; ?>
 
     <!-- Seccion nuestros servicios -->
     <section class="bg-light_grey">
@@ -558,44 +515,10 @@
                 </a>
             </footer>
         </div>
-
     </section>
 
-    <!-- Seccion contacto -->
-    <section class="max-w-7xl mx-auto md:p-3 bg-light_grey md:bg-white">
-        <div class="rounded-xl md:border-4 border-black py-5 px-10">
-            <h2 class="text--h2 text-center mb-10">Contacto</h2>
-            <main class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
-                    <h3 class="text--h3 mb-5">Cuéntanos sobre tu proyecto para recibir una atención personalizada</h3>
-                    <p class="text--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ultrices neque. Pellentesque ornare volutpat aliquam. Phasellus suscipit</p>
-                    <div class="my-6 flex flex-col lg:block">
-                        <a class="my-2 btn btn--yellow">Agendar una reunión</a>
-                        <a class="my-2 btn btn--light-green">Enviar WhatsApp</a>
-                    </div>
-                    <a href="mailto:hola@deskrive.com" class="poppins-semibold text-lg">hola@deskrive.com</a>
+    <?php include 'components/contacto.php'; ?>
 
-                </div>
-                <div>
-                    <form action="">
-                        <input type="text" class="input--grey my-2 w-full" placeholder="Nombre">
-                        <input type="email" class="input--grey my-2 w-full" placeholder="Correo electrónico">
-                        <input type="text" class="input--grey my-2 w-full" placeholder="Empresa">
-                        <input type="tel" class="input--grey my-2 w-full" placeholder="Teléfono">
-                        <textarea name="" id="" cols="30" rows="10" class="input--grey my-2 w-full" placeholder="Cuéntanos sobre tu proyecto"></textarea>
-                        <span class="text-xs poppins-regular">
-                            A nosotros tampoco nos gusta el SPAM, en caso de no tener respuesta únicamente recibirás un máximo de 3 correos y 2 mensajes de WhatsApp. Consulta tu bandeja de SPAM en caso de no recibir un correo de contacto.
-                        </span>
-                        <div class="my-4 text-center md:text-end">
-                            <button type="button" class="btn btn--yellow">
-                                Enviar solicitud
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </main>
-        </div>
-    </section>
 
     <!-- Seccion lo que nuestros clientes opinan -->
     <section class="max-w-7xl mx-auto py-12 px-4">
