@@ -354,7 +354,15 @@ textarea.input--grey {
     }
 
     .text--h3 {
-        font-size: 20px;
+        font-size: 16px;
+    }
+
+    .text--h4 {
+        font-size: 16px;
+    }
+
+    .text--h5 {
+        font-size: 12px;
     }
 
     .text--p {
