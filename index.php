@@ -5,7 +5,8 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-define('__ROOT__', "http://localhost/deskrive_ws/");
+#define('__ROOT__', "http://localhost/deskrive_ws/");
+define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/deskrive_v2/");
 
 
 Flight::route('/', function () {
@@ -18,6 +19,10 @@ Flight::route('/about', function () {
 
 Flight::route('/contact', function () {
     Flight::render('contact.php', array('title' => 'Contacto'));
+});
+
+Flight::route('/servicioDisenoWeb', function () {
+    Flight::render('servicioDisenoWeb.php', array('title' => 'Diseño web'));
 });
 
 #404
