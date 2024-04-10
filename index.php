@@ -25,6 +25,10 @@ Flight::route('/servicioDisenoWeb', function () {
     Flight::render('servicioDisenoWeb.php', array('title' => 'Diseño web'));
 });
 
+Flight::route('/portafolio', function () {
+    Flight::render('portafolio.php', array('title' => 'Portafolio'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
