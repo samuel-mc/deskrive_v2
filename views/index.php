@@ -307,7 +307,7 @@
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle">Casos de éxito</supertitle>
             <h2 class="text--h2 mb-3">Deskrive en acción</h2>
-            <p class="text--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia</p>
+            <p class="text--p">Descubre cómo nuestras soluciones web han transformado empresas en historias de éxito inspiradoras. Prepárate para ser inspirado por nuestros logros reales</p>
         </header>
         <!-- Cartas que se muestra en la version desktop -->
         <main class="grid grid-cols-3 gap-6 hidden md:grid">
