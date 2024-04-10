@@ -29,6 +29,10 @@ Flight::route('/deskriveLabs', function () {
     Flight::render('deskriveLabs.php', array('title' => 'Formulario - Deskrive Labs'));
 });
 
+Flight::route('/portafolio', function () {
+    Flight::render('portafolio.php', array('title' => 'Portafolio'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
