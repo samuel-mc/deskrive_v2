@@ -15,7 +15,7 @@
                 <li>Expertos a tu disposición</li>
             </ul>
             <div>
-                <button class="btn btn--black">Agendar una reunión <i class="fas fa-arrow-right pl-5"></i></button>
+                <button class="btn btn--black px-4">Agendar una reunión <i class="fas fa-arrow-right pl-5"></i></button>
             </div>
             <p class="text--p">
                 Podrás agendar una asesoría por Zoom, Teams o llamada telefónica en el horario que mejor te convenga. Te llegará una invitación a tu correo electrónico para confirmar dicha asesoría.

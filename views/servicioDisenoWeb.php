@@ -5,17 +5,19 @@
     <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-4 md:p-10">
         <div>
             <supertitle class="text--supertitle font-bold">Desarrollo de páginas web</supertitle>
-            <h1 class="text--h2 text-3xl md:text-4xl mb-3">Impulsando tu Negocio,
-            <span class="text-dark_green"> Una Página a la Vez</span></h1>
+            <h1 class="text--h2 text-3xl md:text-4xl my-3">Impulsando tu Negocio,</h1>
+            <h1 class="text--h2 text-3xl md:text-4xl mb-3 text-dark_green"> Una Página a la Vez</h1>
             <div class="mb-4">
-                <p class="text--p font-bold">Páginas web personalizadas</p>
-                <p class="text--p font-bold">Especialistas en desarrollo web</p>
-                <p class="text--p font-bold">Característica</p>
+                <p class="text--p font-bold mb-3">Páginas web personalizadas</p>
+                <p class="text--p font-bold mb-3">Especialistas en desarrollo web</p>
+                <p class="text--p font-bold mb-3">Característica</p>
             </div>
             <p class="text--p mb-4">
-            Nuestro servicio de desarrollo de páginas web está diseñado para impulsar el éxito de tu empresa en el mundo digital. Tu empresa merece un sitio web que refleje su grandeza, y estamos aquí para hacerlo realidad.
+                Nuestro servicio de desarrollo de páginas web está diseñado para impulsar el éxito de tu empresa en el mundo digital. Tu empresa merece un sitio web que refleje su grandeza, y estamos aquí para hacerlo realidad.
             </p>
-            <a href="#" class="btn btn--black text-center my-1 mx-0 text--h5">Agendar una reunión</a>
+                <button class="btn btn--black font-semibold">
+                    Agendar una reunión <i class="fas fa-arrow-right pl-5"></i>
+                </button>
         </div>
         <div>
             <img src="<?php echo __ROOT__; ?>/public/img/servicioDisenoWeb/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto hidden md:block">
@@ -27,7 +29,7 @@
     <section class="max-w-7xl mx-auto p-4 md:p-10">
         <div class="text-center">
             <supertitle class="text--supertitle font-bold">Nuestros clientes</supertitle>
-            <h1 class="text--h2 text-3xl md:text-4xl mb-3">Clientes que <span class="text-dark_green"> Triunfan en la Web</span></h1>
+            <h1 class="text--h2 text-3xl md:text-4xl my-3">Clientes que <span class="text-dark_green"> Triunfan en la Web</span></h1>
         </div>
         <div id="carouselClientes" class="splide">
             <div class="splide__track">
@@ -77,7 +79,7 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-1 gap-4">
-                    <div class="flex flex-col justify-between">
+                    <div class="flex flex-col justify-between gap-4">
                         <img src="<?php echo __ROOT__; ?>/public/img/servicioDisenoWeb/paginasweb.png" alt="Paginas web" class="w-full">
                         <h3 class="text--h3">Páginas web</h3>
                     </div>
@@ -118,7 +120,7 @@
     <section class="max-w-7xl mx-6 xl:mx-auto bg-light_green py-7 px-4 text-white">
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle font-bold">Características del servicio</supertitle>
-            <h2 class="text--h2">Servicios</h2>
+            <h2 class="text--h2 my-3">Los secretos detrás de nuestras páginas web</h2>
         </header>
         <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="grid grid-cols-1 gap-4">

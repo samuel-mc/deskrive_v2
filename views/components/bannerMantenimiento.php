@@ -7,11 +7,11 @@
         <div class="flex flex-col gap-4 justify-center">
             <supertitle class="text--supertitle font-bold">Mantén tus proyectos web actualizados</supertitle>
             <h1 class="text--h1 ">Deskrive Care: Mantenimiento y Soporte Personalizados</h1>
-            <p class="text--p">
+            <p class="text--p mb-3">
             Descubre el servicio de mantenimiento y soporte personalizado de Deskrive Care. Nos encargamos de cuidar tu sitio web, proporcionando actualizaciones, parches de seguridad y soporte técnico continuo. ¡Haz clic abajo para explorar cómo podemos mantener tu sitio web funcionando sin problemas!
             </p>
             <div>
-                <button class="btn btn--black">Agendar una reunión <i class="fas fa-arrow-right pl-5"></i></button>
+                <button class="btn btn--black">Protege tu sitio web <i class="fas fa-arrow-right pl-5"></i></button>
             </div>
         </div>
     </main>
