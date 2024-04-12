@@ -315,6 +315,10 @@ textarea.input--grey {
     border: 1px solid var(--light_green);
 }
 
+/* Estilo para evitar el overflow del componente */
+#agendaCalendly > div.calendly-inline-widget {
+    height: 1400px !important;
+}
 
 @keyframes appear {
     0% {
@@ -350,7 +354,7 @@ textarea.input--grey {
     }
 
     .text--h2 {
-        font-size: 20px;
+        font-size: 28px;
     }
 
     .text--h3 {

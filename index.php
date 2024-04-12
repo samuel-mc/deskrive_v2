@@ -33,6 +33,14 @@ Flight::route('/portafolio', function () {
     Flight::render('portafolio.php', array('title' => 'Portafolio'));
 });
 
+Flight::route('/agendaUnaReunion', function () {
+    Flight::render('agendaUnaReunion.php', array('title' => 'Agena una reunión'));
+});
+
+Flight::route('/reunionConfirmada', function () {
+    Flight::render('reunionConfirmada.php', array('title' => 'Reunión confirmada'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
