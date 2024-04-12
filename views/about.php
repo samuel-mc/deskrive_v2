@@ -2,7 +2,7 @@
 <?php include 'partials/navbar.php'; ?>
 <main>
     <!-- Hero de la seccion "quienes somos" -->
-    <section class="max-w-7xl mx-auto grid grid-cols-2 gap-4 p-4 md:p-10">
+    <section class="max-w-7xl mx-auto grid grid-cols-2 gap-4 p-10">
         <div class="col-span-2 md:col-span-1">
             <h1 class="text--h2 mb-6">¿Quiénes somos?</h1>
             <div>
@@ -17,18 +17,18 @@
                 </p>
             </div>
         </div>
-        <div class="flex justify-center items-center">
-            <img src="<?php echo __ROOT__; ?>/public/img/about/vector_aboutus.png" alt="logo de la empresa" class="w-full max-w-md hidden md:block">
+        <div class="flex justify-center items-center col-span-2 md:col-span-1">
+            <img src="<?php echo __ROOT__; ?>/public/img/about/vector_aboutus.png" alt="logo de la empresa" class="w-full max-w-72 md:max-w-md">
         </div>
     </section>
 
     <!-- Banner "el team Deskrive ... " -->
     <section class="bg-light_grey mx-auto">
-        <div class="max-w-7xl mx-auto p-4 md:p-10 grid grid-cols-2 gap-4">
-            <div class="flex justify-center items-center">
-                <img src="<?php echo __ROOT__; ?>/public/img/about/vector_aboutus2.png" alt="team Deskrive" class="w-full max-w-sm hidden md:block">
+        <div class="max-w-7xl mx-auto p-10 grid grid-cols-2 gap-4">
+            <div class="flex justify-center items-center col-span-2 md:col-span-1">
+                <img src="<?php echo __ROOT__; ?>/public/img/about/vector_aboutus2.png" alt="team Deskrive" class="w-full max-w-72 md:max-w-sm">
             </div>
-            <div class="col-span-2 md:col-span-1">
+            <div class="col-span-2 md:col-span-1 -row-start-1">
                 <h2 class="text--h2 mb-4">El Dream Team <span class="text-dark_green">de Deskrive</span></h2>
                 <p class="text--p">
                     En Deskrive, contamos con un equipo altamente capacitado y apasionado de desarrolladores especializados en tecnologías web. Nuestro equipo está formado por expertos de desarrollo Back-End, Front-End, Fullstack, arquitectos de software y diseñadores UI y UX. Personas apasionadas por el desarrollo web, el diseño y la tecnología, con una amplia experiencia en desarrollo de soluciones web a la medida.
@@ -83,7 +83,7 @@
     </section>
 
     <!-- Banner "mision y vision" -->
-    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-4 md:p-10">
+    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-10">
         <div>
             <h2 class="text--h2 mb-8">Nuestra misión</h2>
             <p class="text--p">

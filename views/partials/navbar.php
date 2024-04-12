@@ -15,7 +15,7 @@
 </header>
 
 <!-- Header utilizado en la version mobile -->
-<header class="bg-white py-2 px-4 lg:hidden w-full">
+<header class="bg-white py-2 px-4 lg:hidden w-full border-b-4 border-light_green">
     <div class="flex justify-between">
         <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w-32 object-contain">
         <button class="btn btn--yellow p-2 w-10 h-10" onclick="toggleShowMenu()">

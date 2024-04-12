@@ -302,15 +302,15 @@
         </div>
     </section>
 
-    <!-- Casos de exito -->
-    <section class="max-w-7xl mx-auto py-6 px-2">
+    <!-- Casos de exito desktop-->
+    <section class="max-w-7xl mx-auto py-6 px-2 hidden md:block">
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle">Casos de éxito</supertitle>
             <h2 class="text--h2 mb-3">Deskrive en acción</h2>
             <p class="text--p">Descubre cómo nuestras soluciones web han transformado empresas en historias de éxito inspiradoras. Prepárate para ser inspirado por nuestros logros reales</p>
         </header>
         <!-- Cartas que se muestra en la version desktop -->
-        <main class="grid grid-cols-3 gap-6 hidden md:grid">
+        <main class="grid grid-cols-3 gap-6 grid">
             <div class="rounded-xl" style="background-color: #EEFFDB;">
                 <div class="p-6">
                     <h3 class="text--h3">ArdyssLife</h3>
@@ -367,7 +367,17 @@
                 </div>
             </div>
         </main>
+    </section>
 
+    <!-- Seccion obtiene una asesoría gratis -->
+    <?php include 'components/obtenUnaAsesoria.php'; ?>
+
+        <!-- Casos de exito desktop-->
+    <section class="max-w-7xl mx-auto py-6 px-2 block md:hidden">
+        <header class="max-w-3xl text-center mx-auto mb-9">
+            <supertitle class="text--supertitle">Casos de éxito</supertitle>
+            <h2 class="text--h2 mb-3">Deskrive en acción</h2>
+        </header>
         <!-- Carrusel que se muestra en la version mobile -->
         <div class="splide block md:hidden" id="carruselCasos">
             <div class="splide__track">
@@ -442,10 +452,6 @@
         </div>
     </section>
 
-
-    <!-- Seccion obtiene una asesoría gratis -->
-    <?php include 'components/obtenUnaAsesoria.php'; ?>
-
     <!-- Seccion nuestros servicios -->
     <section class="bg-light_grey">
         <div class="max-w-7xl mx-auto py-10 px-4">
@@ -516,9 +522,6 @@
             </footer>
         </div>
     </section>
-
-    <?php include 'components/contacto.php'; ?>
-
 
     <!-- Seccion lo que nuestros clientes opinan -->
     <section class="max-w-7xl mx-auto py-12 px-4">
@@ -639,6 +642,8 @@
 
         </div>
     </section>
+
+    <?php include 'components/contacto.php'; ?>
 
     <!-- Seccion tecnologias que usamos -->
     <section class="max-w-7xl mx-auto py-6">

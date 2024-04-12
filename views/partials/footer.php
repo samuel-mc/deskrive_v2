@@ -1,19 +1,16 @@
 <!-- Principio del widget de globo de Calendly -->
-
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-
 <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/deskrive/meetnew?primary_color=2ecc71', text: 'Agendar videollamada', color: '#f1c40f', textColor: '#1a1a1a', branding: undefined }); }</script>
-
 <!-- Final del widget de globo de Calendly -->
-<footer class="bg-footer_grey px-10 md:p-4 md:py-8">
+
+<footer class="bg-footer_grey px-10 py-10 md:p-4 md:py-8">
     <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-12">
         <div class="col-span-12 lg:col-span-3 mb-3 md:mb-0">
             <div class="mb-3 md:mb-0">
                 <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa" class="w-52 mx-auto md:mx-0">
             </div>
-            <p class="text-xs poppins-regular">
+            <p class="text-sm poppins-regular">
                 Somos Deskrive, una empresa de consultoría tecnológica y de desarrollo de software comprometida en ofrecer soluciones web innovadoras y de alta calidad a nuestros clientes. Nos especializamos en los servicios de desarrollo de páginas web, eCommerce, aplicaciones web y móviles, desarrollo de sistemas para soluciones empresariales a la medida y diseño gráfico. Nuestra experiencia y enfoque en desarrollo web nos han permitido establecer una sólida base de clientes en toda la República Mexicana, Estados Unidos y Centroamérica. 
             </p>
             <p class="text-xs text-stone-400 mt-4">Copyright Deskrive Innovations 2023.</p>

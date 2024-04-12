@@ -20,7 +20,7 @@
                         <input type="text" class="input--grey my-2 w-full" placeholder="Empresa">
                         <input type="tel" class="input--grey my-2 w-full" placeholder="Teléfono">
                         <textarea name="" id="" cols="30" rows="10" class="input--grey my-2 w-full" placeholder="Cuéntanos sobre tu proyecto"></textarea>
-                        <span class="text-xs poppins-regular">
+                        <span class="text-sm poppins-regular">
                             A nosotros tampoco nos gusta el SPAM, en caso de no tener respuesta únicamente recibirás un máximo de 3 correos y 2 mensajes de WhatsApp. Consulta tu bandeja de SPAM en caso de no recibir un correo de contacto.
                         </span>
                         <div class="my-4 text-center md:text-end">

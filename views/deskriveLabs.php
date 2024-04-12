@@ -2,9 +2,9 @@
 <?php include 'partials/navbar.php'; ?>
 
 <main>
-    <section class="max-w-7xl mx-auto py-16 px-4">
-        <div class="rounded-xl md:border-4 md:border-black px-6 md:px-24 py-10 bg-light_grey">
-            <supertitle class="text--supertitle text-sm md:text-xl mb-4">Formulario Deskrive Labs</supertitle>
+    <section class="max-w-7xl mx-auto md:py-16 md:px-4 mb-10 mb:mb-0">
+        <div class="md:rounded-xl md:border-4 md:border-black px-6 md:px-24 py-10 bg-light_grey">
+            <supertitle class="text--supertitle text-base md:text-xl mb-5">Formulario Deskrive Labs</supertitle>
             <h1 class="text--h1 mb-5 md:mb-10">¿Quieres desarrollar un producto? <br> <span class="text-dark_green">Te ayudamos a desarrollarlo</span></h1>
             <p class="text--p my-5 md:hidden">
                 En Deskrive, no solo creamos aplicaciones; damos vida a sueños. Nuestro Product Studio es el escenario donde tu visión se convierte en una experiencia tangible. Desde el concepto inicial hasta la implementación completa, estamos comprometidos a hacer que tu idea cobre vida de manera espectacular.
