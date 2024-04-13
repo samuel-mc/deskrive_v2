@@ -2,7 +2,7 @@
 <?php include 'partials/navbar.php'; ?>
 <main>
     <!-- Seccion hero -->
-    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-4 md:p-10">
+    <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-4 md:p-10" id="">
         <div>
             <supertitle class="text--supertitle font-bold">Desarrollo de páginas web</supertitle>
             <h1 class="text--h2 text-3xl md:text-4xl my-3">Impulsando tu Negocio,</h1>
@@ -24,9 +24,38 @@
         </div>
     </section>
 
+    <section class="sticky w-full z-20 top-0 bg-white py-2 px-4 md:px-10">
+        <navbar class="max-w-7xl mx-auto">
+            <ul id="submenu"  class="flex items-center justify-start h-full poppins-regular text-sm md:text-xl bg-light_grey rounded-full overflow-auto whitespace-nowrap">
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 transition-all">
+                    <a class="border-b-2 border-transparent text-center" href="#"><i class="fas fa-arrow-up px-5"></i></a>
+                </li>
 
-    <!-- Seccion hero -->
-    <section class="max-w-7xl mx-auto p-4 md:p-10">
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#clientesSection">Clientes</a>
+                </li>
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#serviciosSection">Servicios</a>
+                </li>
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#caracteristicasSection">Características</a>
+                </li>
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#porqueSection">¿Por qué Deskrive?</a>
+                </li>
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#casosExitoSection">Casos de éxito</a>
+                </li>
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#diseñoSection">Diseño en tiempo real</a>
+                </li>
+            </ul>
+        </navbar>
+    </section>
+
+
+    <!-- Seccion nuestros clientes -->
+    <section class="max-w-7xl mx-auto p-4 md:p-10" id="clientesSection">
         <div class="text-center">
             <supertitle class="text--supertitle font-bold">Nuestros clientes</supertitle>
             <h1 class="text--h2 text-3xl md:text-4xl my-3">Clientes que <span class="text-dark_green"> Triunfan en la Web</span></h1>
@@ -59,7 +88,7 @@
 
 
     <!-- Seccion servicios -->
-    <section class="bg-light_grey">
+    <section class="bg-light_grey" id="serviciosSection">
         <div class="max-w-7xl mx-auto py-10 px-4">
             <header class="max-w-3xl text-center mx-auto mb-9">
                 <h2 class="text--h2">Servicios</h2>
@@ -117,7 +146,7 @@
 
 
     <!-- Seccion caracteristicas -->
-    <section class="max-w-7xl mx-6 xl:mx-auto bg-light_green py-7 px-4 text-white">
+    <section class="max-w-7xl mx-6 xl:mx-auto bg-light_green py-7 px-4 text-white" id="caracteristicasSection">
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle font-bold">Características del servicio</supertitle>
             <h2 class="text--h2 my-3">Los secretos detrás de nuestras páginas web</h2>
@@ -185,7 +214,7 @@
 
 
     <!-- Seccion por qué -->
-    <section class="max-w-7xl mx-6 xl:mx-auto py-7 px-4">
+    <section class="max-w-7xl mx-6 xl:mx-auto py-7 px-4" id="porqueSection">
         <header class="max-w-3xl text-center mx-auto mb-9">
             <h2 class="text--h2 mb-2">¿Por qué desarrollar mi sitio web <span class="text-dark_green"> con Deskrive?</span></h2>
         </header>
@@ -230,7 +259,7 @@
 
     
     <!-- Casos de exito -->
-    <section class="max-w-7xl mx-auto py-6 px-2">
+    <section class="max-w-7xl mx-auto py-6 px-2" id="casosExitoSection">
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle">Casos de éxito</supertitle>
             <h2 class="text--h2 mb-3">Deskrive en acción</h2>
@@ -425,6 +454,50 @@
         },
     });
     carruselCasos.mount();
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+
+        var links = document.querySelectorAll("#submenu li");
+        console.log(links);
+        links.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+                // Remueve las clases de los enlaces no seleccionados
+                links.forEach(function(link) {
+                    link.classList.remove("bg-black", "text-white");
+                });
+                // Agrega las clases al enlace seleccionado
+                link.classList.add("bg-black","text-white");
+            });
+        });
+
+
+        var menuItems = document.querySelectorAll(".menu-item");
+        var sections = document.querySelectorAll("section");
+        window.addEventListener("scroll", function() {
+            var currentSection = "";
+
+            //SELECIONAR SECCION EN PANTALLA ACTUALMENTE
+            sections.forEach(function(section) {
+                var sectionTop = section.offsetTop;
+                var sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= sectionTop - sectionHeight / 3) {
+                    currentSection = section.getAttribute("id");
+                }
+            });
+
+            //SELECIONAR OPCION DEL MENU DE LA SECCION
+            menuItems.forEach(function(item) {
+                link = item.querySelector("a");
+
+                item.classList.remove("bg-black", "text-white");
+                if (link.getAttribute("href").slice(1) === currentSection) {
+                    item.classList.add("bg-black","text-white");
+                }
+            });
+        });
+    });
+
 </script>
 
 <?php include 'partials/footer.php'; ?>

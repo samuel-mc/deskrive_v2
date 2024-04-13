@@ -1,4 +1,4 @@
-<section class="max-w-7xl mx-auto py-0 px-2">
+<section class="max-w-7xl mx-auto py-0 px-2" id="diseñoSection">
     <div class="grid place-items-center place-content-center px-4">
         <img src="<?php echo __ROOT__; ?>/public/img/servicioDisenoWeb/bgTiempoReal.png" alt="imagen de fondo" class="col-start-1 row-start-1 w-full">
         <div class="col-start-1 row-start-1 p-4 text-center">
