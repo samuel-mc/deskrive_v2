@@ -33,6 +33,14 @@ Flight::route('/servicioWebDevelop', function () {
     Flight::render('servicioWebDevelop.php', array('title' => 'Web Development'));
 });
 
+Flight::route('/labs', function () {
+    Flight::render('labs.php', array('title' => 'Labs'));
+});
+
+Flight::route('/care', function () {
+    Flight::render('care.php', array('title' => 'Care'));
+});
+
 Flight::route('/deskriveLabs', function () {
     Flight::render('deskriveLabs.php', array('title' => 'Formulario - Deskrive Labs'));
 });

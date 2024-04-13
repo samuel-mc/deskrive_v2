@@ -5,16 +5,22 @@
     <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-4 md:p-10" id="">
         <div>
             <supertitle class="text--supertitle font-bold">Desarrollo web</supertitle>
-            <h1 class="text--h2 text-3xl md:text-4xl my-3">Construyendo Conexiones a <br>través <spam class="text--h2 text-3xl md:text-4xl mb-3 text-dark_green"> de Aplicaciones Web <br>Innovadoras</spam></h1>
+            <h1 class="text--h2 text-3xl md:text-4xl my-3">Transformando Ideas <spam class="text--h2 text-3xl md:text-4xl mb-3 text-dark_green"> en <br>Tecnología</spam></h1>
+            <div class="mb-4">
+                <p class="text--p font-bold mb-3">Desarrollo de aplicaciones SaaS.</p>
+                <p class="text--p font-bold mb-3">Desarrollo de WebApps</p>
+                <p class="text--p font-bold mb-3">Desarrollo de aplicaciones móviles </p>
+            </div>
+
             <p class="text--p mb-4">
-            ¡Bienvenido a la transformación digital! En Deskrive, no solo creamos aplicaciones web; forjamos experiencias digitales que cautivan, inspiran y transforman. Desde la concepción hasta la implementación, nuestro equipo de expertos trabaja incansablemente para convertir tus ideas en realidades digitales extraordinarias. ¿Estás listo para llevar tu negocio al siguiente nivel?
+            En Deskrive, no solo creamos aplicaciones; damos vida a sueños. Nuestro Product Studio es el escenario donde tu visión se convierte en una experiencia tangible. Desde el concepto inicial hasta la implementación completa, estamos comprometidos a hacer que tu idea cobre vida de manera espectacular.
             </p>
                 <button class="btn btn--black font-semibold">
                     Agendar una reunión <i class="fas fa-arrow-right pl-5"></i>
                 </button>
         </div>
         <div>
-            <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto hidden md:block">
+            <img src="<?php echo __ROOT__; ?>/public/img/labs/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto hidden md:block">
         </div>
     </section>
 
@@ -34,13 +40,13 @@
                     <a class="border-b-2 border-transparent" href="#caracteristicasSection">Características</a>
                 </li>
                 <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
+                    <a class="border-b-2 border-transparent" href="#somosSocioSection">Tu socio tecnológico</a>
+                </li>
+                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
                     <a class="border-b-2 border-transparent" href="#porqueSection">¿Por qué Deskrive?</a>
                 </li>
                 <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
-                    <a class="border-b-2 border-transparent" href="#procesoSection">Proceso de desarrollo</a>
-                </li>
-                <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
-                    <a class="border-b-2 border-transparent" href="#solucionesEscalablesSection">Soluciones escalables</a>
+                    <a class="border-b-2 border-transparent" href="#cicloDesarrolloSection">Ciclo de desarrollo</a>
                 </li>
             </ul>
         </div>
@@ -56,22 +62,22 @@
             <div class="splide__track">
                 <ul class="splide__list flex justify-center">
                 <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/logo_ardysslife.png" alt="logo ardysslife" class="w-full">
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/logo_ardysslife.png" alt="logo ardysslife" class="w-full">
                     </li>
                     <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/logo_query.png" alt="logo query" class="w-full">
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/logo_query.png" alt="logo query" class="w-full">
                     </li>
                     <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/logo_seatco.png" alt="logo theseatco" class="w-full">
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/logo_seatco.png" alt="logo theseatco" class="w-full">
                     </li>
                     <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/logo_flytek.png" alt="logo flytek" class="w-full">
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/logo_flytek.png" alt="logo flytek" class="w-full">
                     </li>
                     <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/logo_evergo.png" alt="logo evergo" class="w-full">
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/logo_evergo.png" alt="logo evergo" class="w-full">
                     </li>
                     <li class="splide__slide">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/logo_solarever.png" alt="logo olarever" class="w-full">
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/logo_solarever.png" alt="logo olarever" class="w-full">
                     </li>
                 </ul>
             </div>
@@ -88,11 +94,11 @@
             <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="grid grid-cols-1 gap-4">
                     <div class="flex flex-col justify-between">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/aplicacionesweb.png" alt="aplicaciones web" class="w-full">
-                        <h3 class="text--h3">Aplicaciones web / Web Apps</h3>
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/gestionProducto.png" alt="Gestión de Producto" class="w-full">
+                        <h3 class="text--h3">Gestión de Producto</h3>
                     </div>
                     <p class="text--p">
-                    Creamos aplicaciones web personalizadas que se adaptan a las necesidades únicas de tu negocio. Con un enfoque en la usabilidad, la escalabilidad y la seguridad, nuestras aplicaciones web ofrecen una experiencia de usuario excepcional en todos los dispositivos.
+                    Nuestro servicio de gestión de producto se centra en comprender a fondo a los usuarios de tu plataforma. Desde la identificación de los segmentos de usuarios hasta la definición del Producto Mínimo Viable (MVP) y la recopilación de información valiosa a través de versiones beta, nos aseguramos de que tu producto esté perfectamente alineado con las necesidades del mercado.
                     </p>
                     <div class="flex gap-2 flex-col lg:flex-row text--p items-center">
                         <span class="btn--white rounded-full px-4 py-1 border border-black-500">Aplicaciones web</span>
@@ -100,11 +106,11 @@
                 </div>
                 <div class="grid grid-cols-1 gap-4">
                     <div class="flex flex-col justify-between">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/frontend.png" alt="frontend" class="w-full">
-                        <h3 class="text--h3">Front-end development</h3>
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/diseñoProducto.png" alt="Diseño de Producto" class="w-full">
+                        <h3 class="text--h3">Diseño de Producto</h3>
                     </div>
                     <p class="text--p">
-                    Nuestro equipo de desarrolladores front-end transforma diseños creativos en experiencias interactivas para tus usuarios. Utilizando las últimas tecnologías y prácticas de desarrollo, creamos interfaces de usuario intuitivas y receptivas que destacan la identidad de tu marca y optimizan la participación del usuario.
+                    Nuestro equipo de diseño se encarga de convertir tu visión en una experiencia digital impactante. Desde la planificación inicial hasta el diseño de interfaz y la creación de prototipos de aplicaciones web, nos aseguramos de que cada detalle de tu producto sea diseñado con cuidado y atención a la experiencia del usuario.
                     </p>
                     <div class="flex gap-2 flex-col lg:flex-row text--p items-center">
                         <span class="btn--white rounded-full px-4 py-1 border border-black-500">React JS</span>
@@ -114,11 +120,11 @@
                 </div>
                 <div class="grid grid-cols-1 gap-4">
                     <div class="flex flex-col justify-between">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/backend.png" alt="backend" class="w-full">
-                        <h3 class="text--h3">Back-end development</h3>
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/desarrolloProducto.png" alt="Desarrollo de Producto" class="w-full">
+                        <h3 class="text--h3">Desarrollo de Producto</h3>
                     </div>
                     <p class="text--p">
-                    Cada aplicación web contiene un sólido sistema de back-end que garantiza un funcionamiento fluido y seguro. Desde la gestión de bases de datos hasta la lógica de negocio, nuestros desarrolladores back-end construyen la infraestructura necesaria para respaldar tus aplicaciones web y garantizar su rendimiento óptimo en todo momento.
+                    Nos especializamos en el desarrollo de aplicaciones web y software de alta calidad. Nuestro equipo de desarrolladores trabaja en estrecha colaboración contigo para convertir tu concepto en una realidad digital funcional y escalable, garantizando un rendimiento óptimo y una experiencia fluida para los usuarios.
                     </p>
                     <div class="flex gap-2 flex-col xl:flex-row text--p items-center  whitespace-nowrap">
                         <span class="btn--white rounded-full px-4 py-1 border border-black-500">PHP</span>
@@ -129,11 +135,11 @@
                 </div>
                 <div class="grid grid-cols-1 gap-4">
                     <div class="flex flex-col justify-between">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/cloud.png" alt="cloud" class="w-full">
-                        <h3 class="text--h3">Cloud development</h3>
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/qa's.png" alt="QA's" class="w-full">
+                        <h3 class="text--h3">QA's</h3>
                     </div>
                     <p class="text--p">
-                    Aprovecha el poder y la flexibilidad de la computación en la nube con nuestras soluciones de desarrollo cloud. Desde la migración de aplicaciones existentes hasta el desarrollo de nuevas aplicaciones nativas de la nube, ayudamos a tu negocio a aprovechar al máximo los servicios en la nube.
+                    Nuestro equipo de Control de Calidad (QA) se encarga de garantizar la calidad y fiabilidad de tu producto. Realizamos pruebas exhaustivas para identificar y corregir cualquier error o defecto, asegurando que tu aplicación cumpla con los más altos estándares de calidad antes de su lanzamiento al mercado.
                     </p>
                     <div class="flex gap-2 flex-col lg:flex-row text--p items-center">
                         <span class="btn--white rounded-full px-4 py-1 border border-black-500">Digital Ocean</span>
@@ -143,11 +149,11 @@
                 </div>
                 <div class="grid grid-cols-1 gap-4">
                     <div class="flex flex-col justify-between">
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/react.png" alt="react" class="w-full">
-                        <h3 class="text--h3">React native hybrid app</h3>
+                        <img src="<?php echo __ROOT__; ?>/public/img/labs/soporteMant.png" alt="Soporte y Mantenimiento" class="w-full">
+                        <h3 class="text--h3">Soporte y Mantenimiento</h3>
                     </div>
                     <p class="text--p">
-                    Llevamos tus ideas más allá de las aplicaciones web y las llevamos a dispositivos móviles iOS y Android con una sola base de código. Desarrollamos aplicaciones híbridas con un rendimiento excepcional y una experiencia de usuario nativa, permitiéndote llegar a una audiencia más amplia sin comprometer la calidad o la funcionalidad.
+                    Ofrecemos servicios de soporte y mantenimiento continuos para garantizar que tu aplicación funcione de manera óptima en todo momento. Desde actualizaciones de seguridad hasta correcciones de errores y optimizaciones de rendimiento, estamos aquí para mantener tu producto en excelente estado y satisfacer las necesidades cambiantes de tu negocio y usuarios.
                     </p>
                     <div class="flex gap-2 flex-col lg:flex-row text--p items-center">
                         <span class="btn--white rounded-full px-4 py-1 border border-black-500">React Native</span>
@@ -159,72 +165,59 @@
         </div>
     </section>
 
-
-
-    <!-- Seccion caracteristicas -->
-    <section class="max-w-7xl mx-6 xl:mx-auto bg-light_green py-7 px-4 text-white" id="caracteristicasSection">
-        <header class="max-w-3xl text-center mx-auto mb-9">
-            <supertitle class="text--supertitle font-bold">Características del servicio</supertitle>
-            <h2 class="text--h2 my-3">Innovación en Cada Línea de Código</h2>
-        </header>
+    <!-- Seccion somosSocio -->
+    <section class="max-w-7xl mx-0 xl:mx-auto py-7 px-4 my-4" id="somosSocioSection">
+        <div class="flex flex-col md:grid gap-6 md:grid-cols-2">
+            <header class="max-w-3xl text-center mx-auto mb-9">
+                <supertitle class="text--supertitle font-bold">Trabajamos de la mano con nuestros clientes</supertitle>
+                <h2 class="text--h2 mb-2">Somos tu <span class="text-dark_green">socio tecnológico</span></h2>
+            </header>
+            <p class="text--p px-3">
+            No solo somos tu proveedor de desarrollo web, somos tu socio tecnológico. Te acompañamos en todo el proceso de desarrollo de tu producto, aprovechando nuestra experiencia para agregar valor a tu idea. Nuestro equipo de especialistas está preparado para escalar la aplicación a medida que tu negocio crece, asegurándonos de que tu producto esté siempre un paso adelante en el mercado.
+            </p>
+        </div>
         <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="grid grid-cols-1 gap-4">
-                <div class="flex flex-col justify-between gap-4">
-                    <div>
-                        <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/escalables.png" alt="Proyectos escalables" class="w-24">
-                    </div>
-                    <h4 class="text--h4 font-bold">Proyectos escalables.</h4>
-                </div>
+                <img src="<?php echo __ROOT__; ?>/public/img/labs/somosCultura.png" alt="Cultura de ingeniería" class="w-48">
+                <h3 class="text--h3">Cultura de ingeniería</h3>
                 <p class="text--p">
-                Nuestras soluciones de desarrollo web están diseñadas para crecer con tu negocio. Implementamos una arquitectura flexible y modular que permite que tu aplicación crezca y se adapte según las necesidades cambiantes del negocio.
+                En Deskrive, cultivamos una auténtica cultura de ingeniería enfocada en la escalabilidad fluida, el mantenimiento fácil y el rendimiento impecable de tu producto. Nuestros equipos multifuncionales cuentan con el personal necesario para desarrollar cualquier producto tecnológico para nuestros clientes.
                 </p>
             </div>
             <div class="grid grid-cols-1 gap-4">
-                <div class="flex flex-col justify-between gap-4">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/propiedad.png" alt="Propiedad de código" class="w-32">
-                    <h4 class="text--h4 font-bold">Propiedad de código</h4>
-                </div>
+                <img src="<?php echo __ROOT__; ?>/public/img/labs/somosCentrado.png" alt="Centrado en el usuario" class="w-48">
+                <h3 class="text--h3">Centrado en el usuario</h3>
                 <p class="text--p">
-                Con un desarrollo en código puro garantizamos que el cliente sea dueño completo del código y producto final. Esto significa que tienes el control total sobre tu proyecto, desde su desarrollo hasta su implementación sin restricciones ni limitaciones.
+                En Deskrive, cultivamos una auténtica cultura de ingeniería enfocada en la escalabilidad fluida, el mantenimiento fácil y el rendimiento impecable de tu producto. Nuestros equipos multifuncionales cuentan con el personal necesario para desarrollar cualquier producto tecnológico para nuestros clientes.
                 </p>
             </div>
             <div class="grid grid-cols-1 gap-4">
-                <div class="flex flex-col justify-between gap-4">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/centradoUsuario.png" alt="Diseño centrado en usuario" class="w-32">
-                    <h4 class="text--h4 font-bold">Diseño centrado en usuario</h4>
-                </div>
+                <img src="<?php echo __ROOT__; ?>/public/img/labs/somosGestion.png" alt="Gestión de Producto" class="w-40">
+                <h3 class="text--h3">Gestión de Producto</h3>
                 <p class="text--p">
-                Nuestro enfoque de diseño centrado en el usuario se basa en la comprensión profunda de tus clientes y sus necesidades. Creamos interfaces intuitivas y experiencias de usuario excepcionales.
-                </p>
-            </div>
-            <div class="grid grid-cols-1 gap-4">
-                <div class="flex flex-col justify-between">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/medida.png" alt="Desarrollo a la medida" class="w-32">
-                    <h4 class="text--h4 font-bold">Desarrollo a la medida</h4>
-                </div>
-                <p class="text--p">
-                Cada proyecto es único, y nuestro enfoque de desarrollo a medida garantiza que cada aspecto de tu aplicación web se adapte perfectamente a tus requisitos específicos y objetivos comerciales. Desde la funcionalidad hasta la estética, cada línea de código está personalizada para ti.
-                </p>
-            </div>
-            <div class="grid grid-cols-1 gap-4">
-                <div class="flex flex-col justify-between">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/responsivo.png" alt="Desarrollo responsivo" class="w-24">
-                    <h4 class="text--h4 font-bold">Desarrollo responsivo</h4>
-                </div>
-                <p class="text--p">
-                Desarrollamos aplicaciones web que se ven y funcionan perfectamente en todos los dispositivos y tamaños de pantalla. Utilizando técnicas de diseño responsivo, garantizamos una experiencia de usuario consistente y de alta calidad.
-                </p>
-            </div>
-            <div class="grid grid-cols-1 gap-4">
-                <div class="flex flex-col justify-between">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/modular.png" alt="Desarrollo modular" class="w-32">
-                    <h4 class="text--h4 font-bold">Desarrollo modular</h4>
-                </div>
-                <p class="text--p">
-                Construimos tu aplicación web en bloques independientes y reutilizables llamados módulos. Esta aproximación no solo acelera el proceso de desarrollo, sino que también facilita futuras actualizaciones y expansiones, garantizando una flexibilidad y mantenimiento óptimos a lo largo del tiempo.
+                Buscamos el ajuste producto-mercado mezclando los más altos estándares de nicho con nuestros propios enfoques de gestión para centrarnos en lo que realmente importa y mantenernos flexibles ante cambios de prioridades. Desde descubrir a los clientes hasta definir un producto mínimo viable, recopilar comentarios de los usuarios y tomar decisiones basadas en datos, estamos aquí para guiar tu producto hacia el éxito.
                 </p>
             </div>
         </main>
+    </section>
+
+
+    <!-- Seccion cuentanos idea -->
+    <section class="max-w-7xl mx-0 xl:mx-auto py-7 px-4 text-white bg-black" id="cuentanosSection">
+        <main class="flex flex-col md:grid gap-6 md:grid-cols-2">
+            <header class="max-w-3xl text-center mx-auto mb-9">
+                <supertitle class="text--supertitle font-bold">Transformando Ideas en Innovación Digital</supertitle>
+                <h2 class="text--h2 mb-2">Cuéntanos tu idea, desarrollamos tu producto.</h2>
+            </header>
+            <p class="text--p px-3">
+            Nuestros clientes llegan con una idea para un producto tecnológico que podría revolucionar su empresa o industria, nosotros estamos aquí para convertirla en una realidad. Desde el primer concepto hasta el producto finalizado, nos especializamos en transformar las ideas de los equipos de marketing, innovación, ventas o comerciales de las empresas, en aplicaciones y soluciones digitales impactantes. Nuestro equipo de expertos se encarga de todo el proceso de desarrollo, ofreciendo nuestra experiencia y valor agregado para asegurar que tu producto no solo cumpla con tus expectativas, sino que también supere las de tus usuarios. Cuéntanos tu visión para que juntos la hagamos realidad.
+            </p>
+        </main>
+        <div class="flex items-center justify-center ">
+            <div>
+                <img src="<?php echo __ROOT__; ?>/public/img/labs/cuentanosIdea.png" alt="Por que?" class="w-full">
+            </div>
+        </div>
     </section>
 
 
@@ -235,7 +228,7 @@
         </header>
         <main class="flex flex-col-reverse md:grid gap-6 md:grid-cols-2">
             <div class="flex items-center">
-                <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/porque.png" alt="Por que?" class="w-full">
+                <img src="<?php echo __ROOT__; ?>/public/img/labs/porque.png" alt="Por que?" class="w-full">
             </div>
             <div class="flex flex-col gap-4">
                 <div class="flex flex-col gap-4">
@@ -272,60 +265,124 @@
 
     <?php include 'components/hablemosProyecto.php'; ?>
 
-    
-    <section class="max-w-7xl mx-auto my-4 bg-black py-10 px-4" id="procesoSection">
-        <h2 class="text--h2 text-white text-center mb-10">Proceso de trabajo</h2>
-        <div class="max-w-4xl mx-auto mb-10">
-            <h3 class="text--h3 text-white text-center mb-5 animated fadeIn" id="titleProceso">Kick-Off</h3>
-            <p class="text--p text-white animated fadeIn" id="descriptionProceso">El equipo asignado por Deskrive para el desarrollo de la aplicación web, se encarga de la planificación de todo el proyecto, se monta el proyecto en el Deskrive Framework para planificar todos los módulos que requerirá la aplicación web y la arquitectura de la misma.</p>
+
+    <!-- Seccion de informacion sobre nosotros -->
+    <section class="max-w-7xl mx-auto border-4 border-black rounded-xl my-9 py-10 md:py-20 px-7 md:px-28" id="cicloDesarrolloSection">
+        <div class="splide mb-12" id="carruselInfo">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide grid grid-cols-5 gap-12">
+                        <div class="col-span-5 md:col-span-3">
+                            <h2 class="text--h2 mb-4">Discovery session</h2>
+                            <ul class="mb-4 list-disc">
+                                <li class="text--p font-bold mb-3">Gestión de producto</li>
+                                <li class="text--p font-bold mb-3">Análisis de datos</li>
+                                <li class="text--p font-bold mb-3">Viabilidad de producto </li>
+                                <li class="text--p font-bold mb-3">Marketing y ventas </li>
+                            </ul>
+                            <p class="text--p">
+                            En esta etapa crucial del ciclo de desarrollo de productos, nos sumergimos en la exploración y validación de la idea del producto. Para evaluar una idea de producto, garantizar su viabilidad y maximizar las posibilidades de alcanzar un ajuste producto-mercado, llevamos a cabo sesiones detalladas con el cliente. Durante estas sesiones, nuestro objetivo es obtener una estrategia clara del producto, un plan de trabajo detallado y un equipo alineado con todos los contextos relevantes. Trabajamos en estrecha colaboración para definir la visión del producto, identificar los requisitos clave y establecer un camino claro hacia el éxito del producto. Esta etapa es fundamental para establecer una base sólida que guiará todo el proceso de desarrollo del producto y garantizará que estemos enfocados en construir algo que realmente resuene con el mercado y los usuarios.
+                            </p>
+                        </div>
+                        <div class="hidden md:block col-span-2 m-auto">
+                            <img src="<?php echo __ROOT__; ?>/public/img/labs/discovery.png" alt="logo de la empresa" class="w-full max-w-56 mx-auto">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid grid-cols-5 gap-12">
+                        <div class="col-span-5 md:col-span-3">
+                            <h2 class="text--h2 mb-4">Prototipo y validación</h2>
+                            <ul class="mb-4 list-disc">
+                                <li class="text--p font-bold mb-3">Gestión de producto</li>
+                                <li class="text--p font-bold mb-3">Diseño de producto</li>
+                                <li class="text--p font-bold mb-3">Marketing y ventas </li>
+                            </ul>
+                            <p class="text--p">
+                            En esta etapa, adoptamos un enfoque ágil y centrado en el usuario para crear prototipos que nos permitan validar y refinar la idea del producto.  Diseñamos maquetas interactivas y prototipos de interfaz de usuario para que podamos obtener retroalimentación de la audiencia adecuada, priorizamos las optimizaciones y mejoras necesarias para avanzar a la siguiente etapa del proceso. Esta etapa es crucial para probar conceptos, identificar áreas de mejora y validar la viabilidad de nuestra idea de producto antes de avanzar hacia el desarrollo completo.
+                            </p>
+                        </div>
+                        <div class="hidden md:block col-span-2 m-auto">
+                            <img src="<?php echo __ROOT__; ?>/public/img/labs/prototipo.png" alt="logo de la empresa" class="w-full max-w-56 mx-auto">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid grid-cols-5 gap-12">
+                        <div class="col-span-5 md:col-span-3">
+                            <h2 class="text--h2 mb-4">Desarrollo de producto</h2>
+                            <ul class="mb-4 list-disc">
+                                <li class="text--p font-bold mb-3">Gestión de producto</li>
+                                <li class="text--p font-bold mb-3">Diseño de producto</li>
+                                <li class="text--p font-bold mb-3">Arquitectura de software </li>
+                                <li class="text--p font-bold mb-3">Desarrollo de producto </li>
+                            </ul>
+                            <p class="text--p">
+                            Combinamos nuestras habilidades de gestión de productos con nuestra experiencia en ingeniería de desarrollo de software y desarrollo web para construir una base sólida para el futuro producto. Pensamos detenidamente en la pila tecnológica, la arquitectura y diseño para garantizar que el producto sea fácil de escalar y mantener. Nuestro equipo de desarrollo se encarga del desarrollo en código de la aplicación web, sistema o aplicación móvil, asegurando que cada elemento del producto esté diseñado y construido con una visión a largo plazo en mente. Nos esforzamos por crear una solución robusta y flexible que pueda adaptarse y evolucionar junto con las necesidades cambiantes del mercado y los usuarios.
+                            </p>
+                        </div>
+                        <div class="hidden md:block col-span-2 m-auto">
+                            <img src="<?php echo __ROOT__; ?>/public/img/labs/desarrolloProducto.png" alt="logo de la empresa" class="w-full max-w-56 mx-auto">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid grid-cols-5 gap-12">
+                        <div class="col-span-5 md:col-span-3">
+                            <h2 class="text--h2 mb-4">Lanzamiento de MVP</h2>
+                            <ul class="mb-4 list-disc">
+                                <li class="text--p font-bold mb-3">Gestión de producto</li>
+                                <li class="text--p font-bold mb-3">Diseño de producto</li>
+                                <li class="text--p font-bold mb-3">Desarrollo de producto </li>
+                                <li class="text--p font-bold mb-3">QA’s </li>
+                                <li class="text--p font-bold mb-3">Marketing y ventas </li>
+                            </ul>
+                            <p class="text--p">
+                            El lanzamiento del Producto Mínimo Viable (MVP) es crucial en nuestro proceso de desarrollo de productos. Los MVP son necesarios para atraer a los primeros usuarios, incorporarlos y utilizar sus comentarios para pulir la solución. Nuestra estrategia de desarrollo nos permite diseñar un MVP bien equilibrado que aporte valor a los usuarios finales y cumpla con los principales objetivos del negocio. Al mismo tiempo, utilizamos una variedad de técnicas de marketing, como la investigación de clientes, encuestas, etc., para aumentar las posibilidades de que un MVP alcance un ajuste producto-mercado. Nos esforzamos por lanzar un MVP que no solo satisfaga las necesidades iniciales de los usuarios, sino que también establezca una base sólida para futuras iteraciones y mejoras.
+                            </p>
+                        </div>
+                        <div class="hidden md:block col-span-2 m-auto">
+                            <img src="<?php echo __ROOT__; ?>/public/img/labs/lanzamiento.png" alt="logo de la empresa" class="w-full max-w-56 mx-auto">
+                        </div>
+                    </li>
+                    <li class="splide__slide grid grid-cols-5 gap-12">
+                        <div class="col-span-5 md:col-span-3">
+                            <h2 class="text--h2 mb-4">Escalabilidad de producto</h2>
+                            <ul class="mb-4 list-disc">
+                                <li class="text--p font-bold mb-3">Gestión de producto</li>
+                                <li class="text--p font-bold mb-3">Diseño de producto</li>
+                                <li class="text--p font-bold mb-3">Desarrollo de producto </li>
+                                <li class="text--p font-bold mb-3">QA’s </li>
+                                <li class="text--p font-bold mb-3">Marketing y ventas </li>
+                                <li class="text--p font-bold mb-3">Soporte y mantenimiento </li>
+                            </ul>
+                            <p class="text--p">
+                            Una vez que el MVP ha tenido éxito en cuanto a los objetivos de la empresa, seguimos trabajando por mejorar el producto, agregando nuevas funcionalidades, módulos y escalando la plataforma. Cada solicitud debe ser verificada y revisada minuciosamente. Para garantizar un crecimiento constante, nos comunicamos con nuestra audiencia de producto, seguimos métricas, realizamos investigaciones y probamos todas las ideas e hipótesis con nuestro framework de desarrollo de productos. Nos esforzamos por mantener un crecimiento sostenible, priorizando las características y mejoras que agreguen un valor significativo tanto para nuestros usuarios como para el éxito a largo plazo de nuestro producto.
+                            </p>
+                        </div>
+                        <div class="hidden md:block col-span-2 m-auto">
+                            <img src="<?php echo __ROOT__; ?>/public/img/labs/escalabilidad.png" alt="logo de la empresa" class="w-full max-w-56 mx-auto">
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="relative">
-            <div class="contenedor-linea"></div>
-            <div class="flex justify-between relative">
-                <div class="proceso__item proceso--active proceso__item--first" id="kickOff">
-                    <p class="text-base">Discovery session</p>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('kickOff')"></button>
-                    <span></span>
-                </div>
-                <div class="proceso__item" id="wireframe">
-                    <span></span>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('wireframe')"></button>
-                    <p class="text-base">Wireframe</p>
-                </div>
-                <div class="proceso__item" id="planeacion">
-                    <p class="text-base">Diseño de interfaz</p>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('planeacion')"></button>
-                    <span></span>
-                </div>
-                <div class="proceso__item" id="diseno">
-                    <span></span>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('diseno')"></button>
-                    <p class="text-base">Prototipado</p>
-                </div>
-                <div class="proceso__item" id="desarrollo">
-                    <p class="text-base">Desarrollo front-end</p>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('desarrollo')"></button>
-                    <span></span>
-                </div>
-                <div class="proceso__item" id="qa">
-                    <span></span>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('qa')"></button>
-                    <p class="text-base">Desarrollo back-end</p>
-                </div>
-                <div class="proceso__item" id="lanzamiento">
-                    <p class="text-base">Lanzamiento</p>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('lanzamiento')"></button>
-                    <span></span>
-                </div>
-                <div class="proceso__item proceso__item--last" id="mantenimiento">
-                    <span></span>
-                    <button class="btn--proceso" onclick="setProcesoDeTrabajo('mantenimiento')"></button>
-                    <p class="text-base">Mantenimiento y soporte</p>
-                </div>
+        <div class="splide" id="carruselThumbnailInfo">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide text--p p-1">
+                    Discovery session
+                    </li>
+                    <li class="splide__slide text--p p-1">
+                    Prototipo y validación
+                    </li>
+                    <li class="splide__slide text--p p-1">
+                        Desarrollo de producto
+                    </li>
+                    <li class="splide__slide text--p p-1">
+                        Lanzamiento de MVP
+                    </li>
+                    <li class="splide__slide text--p p-1">
+                        Escalabilidad de producto
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
-
 
     <?php include 'components/solucionesEscalables.php'; ?>
 
@@ -351,7 +408,7 @@
                     </p>
                 </div>
                 <div class="flex justify-end items-center h-100 w-100">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito1.png" alt="logo de la empresa" class="w-9/12">
+                    <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito1.png" alt="logo de la empresa" class="w-9/12">
                 </div>
             </div>
             <div class="rounded-xl" style="background-color: #FFE0D8;">
@@ -362,7 +419,7 @@
                     </p>
                 </div>
                 <div class="flex justify-end items-center h-100 w-100">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito2.png" alt="logo de la empresa" class="w-9/12">
+                    <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito2.png" alt="logo de la empresa" class="w-9/12">
                 </div>
             </div>
             <div class="rounded-xl" style="background-color: #C5C5C5;">
@@ -373,7 +430,7 @@
                     </p>
                 </div>
                 <div class="flex justify-end items-center h-100 w-100">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito3.png" alt="logo de la empresa" class="w-9/12">
+                    <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito3.png" alt="logo de la empresa" class="w-9/12">
                 </div>
             </div>
             <div class="rounded-xl" style="background-color: #C3D9FF;">
@@ -384,7 +441,7 @@
                     </p>
                 </div>
                 <div class="flex justify-end items-center h-100 w-100">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito4.png" alt="logo de la empresa" class="w-9/12">
+                    <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito4.png" alt="logo de la empresa" class="w-9/12">
                 </div>
             </div>
             <div class="rounded-xl col-span-2 flex" style="background-color: #FFD0B4;">
@@ -395,7 +452,7 @@
                     </p>
                 </div>
                 <div class="flex justify-end items-center h-100 w-100">
-                    <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito5.png" alt="logo de la empresa" class="w-full">
+                    <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito5.png" alt="logo de la empresa" class="w-full">
                 </div>
             </div>
         </main>
@@ -413,7 +470,7 @@
                                 </p>
                             </div>
                             <div class="flex justify-end items-center h-100 w-100">
-                                <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito1.png" alt="logo de la empresa" class="w-9/12">
+                                <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito1.png" alt="logo de la empresa" class="w-9/12">
                             </div>
                         </div>
                     </li>
@@ -426,7 +483,7 @@
                                 </p>
                             </div>
                             <div class="flex justify-end items-center h-100 w-100">
-                                <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito2.png" alt="logo de la empresa" class="w-9/12">
+                                <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito2.png" alt="logo de la empresa" class="w-9/12">
                             </div>
                         </div>
                     </li>
@@ -439,7 +496,7 @@
                                 </p>
                             </div>
                             <div class="flex justify-end items-center h-100 w-100">
-                                <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito3.png" alt="logo de la empresa" class="w-9/12">
+                                <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito3.png" alt="logo de la empresa" class="w-9/12">
                             </div>
                         </div>
                     </li>
@@ -452,7 +509,7 @@
                                 </p>
                             </div>
                             <div class="flex justify-end items-center h-100 w-100">
-                                <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito4.png" alt="logo de la empresa" class="w-9/12">
+                                <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito4.png" alt="logo de la empresa" class="w-9/12">
                             </div>
                         </div>
                     </li>
@@ -465,7 +522,7 @@
                                 </p>
                             </div>
                             <div class="flex justify-end items-center h-100 w-100">
-                                <img src="<?php echo __ROOT__; ?>/public/img/servicioWebDevelop/casoExito5.png" alt="logo de la empresa" class="w-9/12">
+                                <img src="<?php echo __ROOT__; ?>/public/img/labs/casoExito5.png" alt="logo de la empresa" class="w-9/12">
                             </div>
                             
                         </div>
@@ -480,7 +537,7 @@
     <?php include 'components/bannerDisenoTiempoReal.php'; ?>
     <?php include 'components/bannerMantenimiento.php'; ?>
     <?php 
-        $pag="serviciosWebDevelop";
+        $pag="labs";
         include 'components/preguntasFrec.php'; ?>
 
 </main>
@@ -530,6 +587,49 @@
         },
     });
     carruselCasos.mount();
+
+
+
+    var carruselInfo = new Splide('#carruselInfo', {
+        arrows: false,
+        pagination: false,
+        type: 'loop',
+        gap: '1.6rem',
+        perPage: 1,
+        perMove: 1,
+        isNavigation: false,
+        autoScroll: {
+            speed: 1,
+        },
+    });
+    var carruselThumbnailInfo = new Splide('#carruselThumbnailInfo', {
+        rewind: true,
+        isNavigation: true,
+        focus: 'center',
+        pagination: false,
+        arrows: false,
+        cover: true,
+        perPage: 5,
+        gap: '1.6rem',
+        breakpoints: {
+            720: {
+                perPage: 3,
+                gap: '1rem',
+                arrows: true,
+            },
+            480: {
+                perPage: 2,
+                gap: '1rem',
+                arrows: true,
+            },
+        },
+    });
+
+    carruselInfo.sync(carruselThumbnailInfo);
+    carruselInfo.mount();
+    carruselThumbnailInfo.mount();
+
+
 
 
     document.addEventListener("DOMContentLoaded", function() {
