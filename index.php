@@ -25,6 +25,14 @@ Flight::route('/servicioDisenoWeb', function () {
     Flight::render('servicioDisenoWeb.php', array('title' => 'Diseño web'));
 });
 
+Flight::route('/servicioEcommerce', function () {
+    Flight::render('servicioEcommerce.php', array('title' => 'Diseño web'));
+});
+
+Flight::route('/servicioWebDevelop', function () {
+    Flight::render('servicioWebDevelop.php', array('title' => 'Web Development'));
+});
+
 Flight::route('/deskriveLabs', function () {
     Flight::render('deskriveLabs.php', array('title' => 'Formulario - Deskrive Labs'));
 });

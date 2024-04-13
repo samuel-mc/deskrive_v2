@@ -1,5 +1,5 @@
-<section class="max-w-7xl mx-auto py-0 px-2" id="diseñoSection">
-    <div class="grid place-items-center place-content-center px-4">
+<section class="max-w-7xl mx-auto p-0" id="diseñoSection">
+    <div class="grid place-items-center lg:px-0 px-4">
         <img src="<?php echo __ROOT__; ?>/public/img/servicioDisenoWeb/bgTiempoReal.png" alt="imagen de fondo" class="col-start-1 row-start-1 w-full">
         <div class="col-start-1 row-start-1 p-4 text-center">
             <h2 class="text--h2">Diseño web en <span class="text-dark_green"> tiempo real</span></h2>

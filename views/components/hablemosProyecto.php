@@ -14,12 +14,12 @@
                 <li>Asesoría gratuita</li>
                 <li>Expertos a tu disposición</li>
             </ul>
-            <div>
+            <div class="w-7/12">
                 <button class="btn btn--black px-4">Agendar una reunión <i class="fas fa-arrow-right pl-5"></i></button>
+                <p class="text--p py-4">
+                    Podrás agendar una asesoría por Zoom, Teams o llamada telefónica en el horario que mejor te convenga. Te llegará una invitación a tu correo electrónico para confirmar dicha asesoría.
+                </p>
             </div>
-            <p class="text--p">
-                Podrás agendar una asesoría por Zoom, Teams o llamada telefónica en el horario que mejor te convenga. Te llegará una invitación a tu correo electrónico para confirmar dicha asesoría.
-            </p>
         </div>
     </main>
 </section>

@@ -25,12 +25,11 @@
     </section>
 
     <section class="sticky w-full z-20 top-0 bg-white py-2 px-4 md:px-10">
-        <navbar class="max-w-7xl mx-auto">
+        <div class="max-w-7xl mx-auto">
             <ul id="submenu"  class="flex items-center justify-start h-full poppins-regular text-sm md:text-xl bg-light_grey rounded-full overflow-auto whitespace-nowrap">
                 <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 transition-all">
                     <a class="border-b-2 border-transparent text-center" href="#"><i class="fas fa-arrow-up px-5"></i></a>
                 </li>
-
                 <li class="menu-item rounded-full px-4 py-3 lg:hover:bg-gray-300 focus:bg-black focus:text-white transition-all">
                     <a class="border-b-2 border-transparent" href="#clientesSection">Clientes</a>
                 </li>
@@ -50,7 +49,7 @@
                     <a class="border-b-2 border-transparent" href="#diseñoSection">Diseño en tiempo real</a>
                 </li>
             </ul>
-        </navbar>
+        </div>
     </section>
 
 
