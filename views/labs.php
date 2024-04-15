@@ -205,8 +205,8 @@
     <!-- Seccion cuentanos idea -->
     <section class="max-w-7xl mx-0 xl:mx-auto py-7 px-4 text-white bg-black" id="cuentanosSection">
         <main class="flex flex-col md:grid gap-6 md:grid-cols-2">
-            <header class="max-w-3xl text-center mx-auto mb-9">
-                <supertitle class="text--supertitle font-bold">Transformando Ideas en Innovación Digital</supertitle>
+            <header class="max-w-3x mx-auto mb-9">
+                <supertitle class="text--supertitle font-bold mb-3">Transformando Ideas en Innovación Digital</supertitle>
                 <h2 class="text--h2 mb-2">Cuéntanos tu idea, desarrollamos tu producto.</h2>
             </header>
             <p class="text--p px-3">

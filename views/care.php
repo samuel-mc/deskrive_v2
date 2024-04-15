@@ -6,9 +6,9 @@
     <section class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 p-4 md:p-10" id="">
         <div>
             <supertitle class="text--supertitle font-bold">Deskrive Care</supertitle>
-            <h1 class="text--h2 text-3xl md:text-4xl my-3">Mantenimiento y soporte<spam class="text--h2 text-3xl md:text-4xl mb-3 text-dark_green"> <br>  para tus proyectos web</spam></h1>
+            <h1 class="text--h2 text-3xl md:text-4xl my-4">Mantenimiento y soporte<spam class="text--h2 text-3xl md:text-4xl mb-3 text-dark_green"> <br>  para tus proyectos web</spam></h1>
 
-            <p class="text--p mb-4">
+            <p class="text--p mb-6">
             ¡Tu sitio web siempre en buenas manos! Con nuestro equipo experto y dedicado, cuidamos de todos los aspectos técnicos para que puedas enfocarte en lo que realmente importa: hacer crecer tu negocio. Desde actualizaciones de seguridad hasta soporte 24/7. Deja que Deskrive cuide de tu presencia en línea mientras tú te concentras en conquistar el negocio virtual.
             </p>
                 <button class="btn btn--black font-semibold">

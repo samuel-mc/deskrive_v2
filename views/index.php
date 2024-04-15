@@ -307,7 +307,7 @@
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle">Casos de éxito</supertitle>
             <h2 class="text--h2 mb-3">Deskrive en acción</h2>
-            <p class="text--p">Descubre cómo nuestras soluciones web han transformado empresas en historias de éxito inspiradoras. Prepárate para ser inspirado por nuestros logros reales</p>
+            <p class="text--p">Descubre cómo nuestras soluciones web han transformado empresas en historias de éxito inspiradoras. Prepárate para ser inspirado por nuestros logros reales.</p>
         </header>
         <!-- Cartas que se muestra en la version desktop -->
         <main class="grid grid-cols-3 gap-6 grid">
@@ -592,7 +592,9 @@
             <h2 class="text--h2 text-white text-center mb-10">Proceso de trabajo</h2>
             <div class="max-w-4xl mx-auto mb-10">
                 <h3 class="text--h3 text-white text-center mb-5 animated fadeIn" id="titleProceso">Kick-Off</h3>
-                <p class="text--p text-white animated fadeIn" id="descriptionProceso">El equipo asignado por Deskrive para el desarrollo de la aplicación web, se encarga de la planificación de todo el proyecto, se monta el proyecto en el Deskrive Framework para planificar todos los módulos que requerirá la aplicación web y la arquitectura de la misma.</p>
+                <p class="text--p text-white animated fadeIn" id="descriptionProceso">
+                    Una vez iniciado con el proyecto del cliente, se requiere tener una reunión virtual de descubrimiento o de Kick-off para dar inicio con el proyecto, escuchar las ideas, requerimientos y objetivos del cliente para comenzar con la planificación.
+                </p>
             </div>
             <div class="relative">
                 <div class="contenedor-linea"></div>

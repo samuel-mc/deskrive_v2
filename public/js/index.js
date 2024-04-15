@@ -6,7 +6,7 @@ const toggleShowMenu = () => {
 const procesos = {
     'kickOff': {
         title: 'Kick-Off',
-        desctiption: 'El equipo asignado por Deskrive para el desarrollo de la aplicación web, se encarga de la planificación de todo el proyecto, se monta el proyecto en el Deskrive Framework para planificar todos los módulos que requerirá la aplicación web y la arquitectura de la misma.'
+        desctiption: 'Una vez iniciado con el proyecto del cliente, se requiere tener una reunión virtual de descubrimiento o de Kick-off para dar inicio con el proyecto, escuchar las ideas, requerimientos y objetivos del cliente para comenzar con la planificación.'
     },
     'planeacion': {
         title: 'Planeación',

@@ -5,13 +5,14 @@
             <main class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                     <h3 class="text--h3 mb-5">Cuéntanos sobre tu proyecto para recibir una atención personalizada</h3>
-                    <p class="text--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed ultrices neque. Pellentesque ornare volutpat aliquam. Phasellus suscipit</p>
-                    <div class="my-6 flex flex-col lg:block">
+                    <p class="text--p mb-10">
+                        Agenda una videollamada con uno de nuestros especialistas, envíanos un WhatsApp o llena nuestro formulario de contacto para brindarte la atención personalizada.
+                    </p>
+                    <div class="my-7 flex flex-col lg:block">
                         <a class="my-2 btn btn--yellow">Agendar una reunión</a>
                         <a class="my-2 btn btn--light-green">Enviar WhatsApp</a>
                     </div>
                     <a href="mailto:hola@deskrive.com" class="poppins-semibold text-lg">hola@deskrive.com</a>
-
                 </div>
                 <div>
                     <form action="">
