@@ -3,6 +3,7 @@ const toggleShowMenu = () => {
     mobileMenu.classList.toggle('notShowed');
 }
 
+// Lista de procesos de trabajo con sus descripciones
 const procesos = {
     'kickOff': {
         title: 'Kick-Off',
@@ -40,6 +41,7 @@ const procesos = {
 };
 
 const setProcesoDeTrabajo = (procesoSeleccionado) => {
+    // Obtiene el proceso seleccionado
     const proceso = procesos[procesoSeleccionado];
     
     // Oculta y actualiza título del proceso con animación de salida

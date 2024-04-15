@@ -8,6 +8,7 @@
             <p class="text--p mb-4">
                 En Deskrive, nos especializamos en dar vida a tus visiones en línea. Ofrecemos desarrollo web personalizado y soluciones a medida que se adaptan a tus necesidades específicas. Nuestra misión es impulsar tu éxito digital. Únete a nosotros y experimenta la excelencia en diseño, innovación y desarrollo web
             </p>
+            <!-- Imagen que se muestra en movil. -->
             <img src="<?php echo __ROOT__; ?>/public/img/home/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto md:hidden">
             <div class="mb-9 flex flex-col lg:flex-row justify-center">
                 <a href="#" class="btn btn--yellow text-center mx-16 my-1 md:mx-1">Agendar una reunión</a>
@@ -15,6 +16,7 @@
             </div>
         </div>
         <div>
+            <!-- Imagen que se muestra en escritorio. -->
             <img src="<?php echo __ROOT__; ?>/public/img/home/img_hero.png" alt="imagen" class="w-full max-w-md mx-auto hidden md:block">
         </div>
     </section>
@@ -372,7 +374,7 @@
     <!-- Seccion obtiene una asesoría gratis -->
     <?php include 'components/obtenUnaAsesoria.php'; ?>
 
-        <!-- Casos de exito desktop-->
+        <!-- Casos de exito mobil-->
     <section class="max-w-7xl mx-auto py-6 px-2 block md:hidden">
         <header class="max-w-3xl text-center mx-auto mb-9">
             <supertitle class="text--supertitle">Casos de éxito</supertitle>
@@ -590,13 +592,15 @@
     <section class="bg-black py-10 px-4">
         <div class="max-w-7xl mx-auto">
             <h2 class="text--h2 text-white text-center mb-10">Proceso de trabajo</h2>
-            <div class="max-w-4xl mx-auto mb-10">
+            <!-- Detalles del paso actual, se muestra en primera instancia el proceso Kick off -->
+            <div class="max-w-4xl mx-auto mb-10" id="contenidoProceso">
                 <h3 class="text--h3 text-white text-center mb-5 animated fadeIn" id="titleProceso">Kick-Off</h3>
                 <p class="text--p text-white animated fadeIn" id="descriptionProceso">
                     Una vez iniciado con el proyecto del cliente, se requiere tener una reunión virtual de descubrimiento o de Kick-off para dar inicio con el proyecto, escuchar las ideas, requerimientos y objetivos del cliente para comenzar con la planificación.
                 </p>
             </div>
-            <div class="relative">
+            <!-- Pasos del proceso del trabajo -->
+            <div class="relative" id="pasosProceso">
                 <div class="contenedor-linea"></div>
                 <div class="flex justify-between relative">
                     <div class="proceso__item proceso--active proceso__item--first" id="kickOff">
